@@ -1,0 +1,517 @@
+GLOBAL PRODUCTION SETTINGS
+
+Scenes
+
+### 5
+
+Duration
+
+### 50 sec
+
+Each scene
+
+10 seconds
+
+Aspect ratio
+
+9:16 vertical
+
+Attach the original three character photographs to every scene-generation request. If the video model offers separate reference-image slots, assign each image to the matching character. Do not rely on text alone to reproduce an exact face.
+
+### Scene 1 — Chinnama's life and the mysterious lottery ticket
+
+10 seconds · Emotional introduction · Madurai, Tamil Nadu
+
+MASTER VIDEO PROMPT — SCENE 1
+TITLE: CHINNAMA'S LIFE AND THE MYSTERIOUS LOTTERY TICKET
+
+DURATION: EXACTLY 10 SECONDS
+FORMAT: 9:16 vertical, ultra-realistic live-action Tamil cinema, cinematic 4K appearance, natural motion, realistic lighting and professional film production.
+
+INPUT IMAGE REFERENCE — MANDATORY:
+Before generating this scene, inspect and use the actual uploaded reference photographs supplied with the video-generation request. The photographs are the authoritative visual sources. Do not invent replacement faces, reinterpret the characters, or use generic AI-generated people.
+
+CHARACTER 1 — CHINNAMA, 50-YEAR-OLD TAMIL WOMAN:
+Use the exact woman shown in the uploaded Chinnama reference photograph. She is now specified as a 50-year-old woman. Preserve her exact facial identity, face shape, eyes, nose, lips, skin tone, natural facial texture, hairstyle, bindi, jewellery, green sari, blouse and body proportions from the input image.
+
+Her green sari must remain exactly the same colour and style as in the reference. Preserve the original blouse, jewellery, hairstyle, complexion and natural age. Her facial appearance must remain stable when she turns her head, moves her hands, walks, looks down or looks toward the camera.
+
+Do not beautify her, alter her facial proportions, change her age, change her weight or substitute a different Tamil woman. Treat the input photograph as the character's permanent identity reference.
+
+CHARACTER 2 — SMALL BOY:
+Use the exact uploaded photograph of the small boy. Preserve his original child face, natural child age, short black hair, orange tilak, cream traditional embroidered shirt, backpack, skin tone and body proportions. Do not invent a different child. The boy must remain a young child and must never be aged into an adult.
+
+CHARACTER 3 — ADULT FUTURE MATHEMATICIAN:
+Use the exact uploaded reference photograph of the heavy-built Tamil man wearing the blue checked shirt. Preserve his exact face, glasses, hairstyle, moustache, beard, skin tone, heavy body proportions and original blue checked shirt. Keep this reference ready for Scenes 3, 4 and 5. He must not physically appear in this scene.
+
+GLOBAL IDENTITY LOCK:
+Use the supplied photographs as direct character references in every shot. Enable the strongest available face-reference, character-reference and identity-consistency settings. Reuse the same reference images and fixed seed wherever supported. Keep the three identities separate. No morphing, face replacement, face blending, age transformation, clothing drift or body-shape changes.
+
+SCENE AND ACTION:
+0–2 seconds: Establish a modest, authentic Tamil home in Madurai in the morning. Chinnama sweeps the floor with a traditional broom. Show her in a natural medium-wide shot, retaining her exact reference appearance.
+
+2–4 seconds: Chinnama folds a cleaning cloth and prepares to leave for work. Show her hands and face in a realistic close-to-medium shot.
+
+4–7 seconds: Cinematic transition to a small traditional Tamil hotel kitchen. The same Chinnama washes large stainless-steel cooking vessels beside a sink. Show realistic reflections, flowing water and authentic kitchen surroundings.
+
+7–10 seconds: Transition back to her modest home. The same Chinnama gives the same small boy a mysterious fictional scratch ticket. The boy receives it with curiosity and looks at it closely. End with a subtle glow from the ticket.
+
+CAMERA:
+Professional cinematic camera movement, stable medium shots, natural close-ups, realistic depth of field. Do not use rapid face-distorting zooms or artificial facial transitions.
+
+LIGHTING:
+Warm morning sunlight at home, realistic warm kitchen lighting at the hotel, natural skin tones and cinematic contrast.
+
+TAMIL NARRATION:
+"ஒவ்வொரு நாளும் உழைப்புதான் அவளுடைய வாழ்க்கை... ஆனால் ஒரு நாள், ஒரு சிறிய சீட்டு பெரிய கணித ரகசியத்துக்கான கதவைத் திறந்தது."
+
+SOUND:
+Gentle Tamil cinematic background music, authentic household ambience, broom movement, kitchen water and stainless-steel vessel sounds.
+
+NEGATIVE PROMPT:
+No generic Tamil woman, no replacement face, no different woman, no age change, no younger appearance, no older appearance, no face swap, no face morphing, no identity drift, no different complexion, no changed bindi, no changed hairstyle, no changed jewellery, no sari colour change, no blouse change, no body-proportion alteration, no beautification, no distorted face, no artificial skin, no duplicate woman, no generic child, no changed child face, no changed orange tilak, no changed cream shirt, no altered backpack, no child ageing, no adult man appearing in the foreground, no distorted hands, no extra fingers, no unrealistic movement, no animation, no cartoon humans, no random costume changes.
+
+FINAL CONTINUITY:
+The exact same Chinnama from the uploaded photograph and the exact same small boy from the uploaded photograph must continue into Scene 2. The adult man's uploaded photograph remains the permanent reference for his later appearance. The result must look like the same real people filmed by the same production camera.
+
+### Scene 2 — The boy discovers the complex plane
+
+10 seconds · Mystery · Mathematical discovery
+
+MASTER VIDEO PROMPT — SCENE 2
+TITLE: THE MYSTERIOUS SCRATCH TICKET AND THE FIRST COMPLEX PLANE
+
+DURATION: EXACTLY 10 SECONDS
+FORMAT: 9:16 vertical, ultra-realistic live-action Tamil cinematic short film, professional macro cinematography, cinematic lighting, natural facial expressions and realistic human motion.
+
+INPUT IMAGE REFERENCE — MANDATORY:
+Refer directly to the uploaded Chinnama photograph and the uploaded small-boy photograph. Use the original images as the primary and authoritative character references. Never generate substitute faces or redesign the characters.
+
+CHARACTER 1 — CHINNAMA:
+The exact same 50-year-old Tamil woman from the uploaded photograph. Preserve her exact face, natural age, skin tone, hairstyle, bindi, jewellery, green sari, blouse and body proportions. Her appearance must match Scene 1 without any changes.
+
+CHARACTER 2 — SMALL BOY:
+The exact same small boy from the uploaded reference photograph. Preserve his exact child face, facial proportions, skin tone, short black hair, orange tilak, cream traditional embroidered shirt, backpack and body proportions. His natural child age must remain unchanged throughout the scene.
+
+CHARACTER 3 — ADULT FUTURE MATHEMATICIAN:
+Use the uploaded photograph of the heavy-built Tamil man wearing the exact blue checked shirt as the authoritative future-character reference. Preserve his exact face, glasses, moustache, beard, hairstyle, skin tone and body proportions. He does not physically appear in this scene.
+
+CHARACTER IDENTITY CONSISTENCY:
+Attach and use the original input photographs directly. Maintain maximum available character-reference strength, facial identity lock, consistent seed and reference conditioning. The woman and boy must remain exactly the same individuals in every shot. No face morphing, age transformation, face swap, clothing changes, complexion changes or body-shape changes.
+
+SCENE ACTION:
+0–2 seconds: In the same modest Madurai home, Chinnama sits beside the boy and hands him the mysterious fictional scratch ticket. The boy holds it carefully and looks at her with curiosity.
+
+2–4 seconds: The boy begins scratching horizontally from left to right with a small coin. Show a realistic close-up of his hands, the coin and the ticket. His face and clothing remain identical to the reference.
+
+4–6 seconds: The boy scratches vertically from top to bottom, then makes fast random scribbling movements across the remaining covered surface. Keep the same ticket, coin and child throughout.
+
+6–8 seconds: The ticket reveals a mysterious luminous complex-plane drawing. A horizontal real axis and a vertical imaginary axis appear. The symbols z=x+iy and s=σ+it emerge clearly.
+
+8–10 seconds: A glowing vertical line appears in the centre of the mysterious mathematical design. The label Re(s)=1/2 is visible. The boy looks astonished, and Chinnama watches him.
+
+MATHEMATICAL GRAPHIC:
+Display a scientifically recognizable complex plane. The horizontal axis is the real axis, and the vertical axis is the imaginary axis. The central vertical line must be correctly positioned at Re(s)=1/2. Do not confuse the real and imaginary axes.
+
+CAMERA:
+Begin with a medium two-shot of Chinnama and the boy. Transition to a macro shot of the ticket and scratching movements. End on a close-up of the boy's surprised face, followed by a brief two-shot with Chinnama.
+
+TAMIL DIALOGUE:
+CHINNAMA:
+"தம்பி, இதைச் சுரண்டிப் பாரு!"
+
+BOY:
+"சின்னம்மா! இதில் ஏதோ வித்தியாசமான கணிதம் இருக்கு!"
+
+VISUAL STYLE:
+Warm indoor lighting, natural skin texture, realistic coin movement, subtle blue-white mathematical glow and shallow cinematic depth of field. Keep the mathematical symbols readable and away from the characters' faces.
+
+SOUND:
+Natural scratching sounds, a subtle mysterious musical build-up and a gentle mathematical energy sound as the complex plane appears.
+
+NEGATIVE PROMPT:
+No generic child, no different child, no changed child face, no age transformation, no taller child, no shorter child, no different skin tone, no different hairstyle, no changed orange tilak, no changed cream traditional embroidered shirt, no changed backpack, no altered body proportions, no face swap, no face blending, no identity drift, no generic woman, no changed Chinnama face, no changed green sari, no changed jewellery, no changed bindi, no changed age, no altered hairstyle, no different body shape, no adult man physically appearing, no extra fingers, no deformed hands, no changing ticket, no disappearing coin, no cartoon characters, no distorted mathematical symbols, no incorrect axis orientation, no random equations covering faces.
+
+CONTINUITY:
+The same boy and Chinnama continue from Scene 1. The adult remains a separate future character. The scratch ticket is the narrative connection between the home and the mathematical time-travel story. The boy never physically transforms into the adult man.
+
+### Scene 3 — Conformal mapping and the time portal
+
+10 seconds · Time travel · Cat-to-tiger mapping
+
+MASTER VIDEO PROMPT — SCENE 3
+TITLE: THE FUTURE MATHEMATICIAN AND THE CONFORMAL MAPPING
+
+DURATION: EXACTLY 10 SECONDS
+FORMAT: Ultra-realistic live-action Tamil science-fiction cinema, 9:16 vertical, cinematic 4K appearance, professional VFX, natural human movement and realistic outdoor lighting.
+
+INPUT IMAGE REFERENCE — MANDATORY:
+Use all three original uploaded photographs directly as the authoritative visual references. The adult man, small boy and Chinnama must look like the actual individuals shown in their respective images. Do not invent new faces or substitute generic AI-generated characters.
+
+CHARACTER 1 — CHINNAMA:
+Use the exact photograph of the 50-year-old Tamil woman. Preserve her exact facial identity, natural age, skin tone, hairstyle, bindi, jewellery, green sari, blouse and body proportions. She must remain unchanged from Scenes 1 and 2.
+
+CHARACTER 2 — SMALL BOY:
+Use the exact photograph of the small boy. Preserve his original face, natural child age, short black hair, orange tilak, cream traditional embroidered shirt, backpack, complexion and body proportions. Never age him or transform him into the adult.
+
+CHARACTER 3 — ADULT FUTURE MATHEMATICIAN:
+Use the exact uploaded photograph of the heavy-built/fat Tamil man wearing the BLUE CHECKED SHIRT. His photograph is the definitive reference for his face and entire appearance.
+
+Preserve the exact same:
+- Face and facial structure
+- Skin tone
+- Black rectangular glasses
+- Hair
+- Moustache
+- Beard
+- Heavy-built body proportions
+- Blue checked shirt pattern
+- Shirt colour
+- Shirt fit
+- Sleeve length
+- Clothing style
+
+Do not slim him, make him muscular, change his height or alter his facial identity. Never replace the blue checked shirt with a plain shirt or another colour.
+
+IDENTITY LOCK:
+Use the same uploaded references with the highest practical identity-reference strength. Enable character-reference consistency, face lock and seed lock wherever supported. The adult is already an adult when he emerges. The child remains a separate child. There is absolutely no physical transformation, morphing, face blending or crossfade between them.
+
+SCENE ACTION:
+0–2 seconds: Madurai Eco Park. The exact small boy stands holding the glowing mathematical scratch ticket. Chinnama stands beside him. A circular blue-white time portal opens behind them, with swirling mathematical symbols and realistic atmospheric effects.
+
+2–4 seconds: The exact adult heavy-built Tamil man wearing the blue checked shirt steps out of the portal. Show his full body and exact reference appearance. The boy, adult and Chinnama are clearly visible together as three separate people.
+
+4–6 seconds: The adult points toward a giant luminous Z-plane suspended in the air. The plane has a correctly oriented horizontal real axis and vertical imaginary axis. The adult introduces the complex variable z=x+iy.
+
+6–8 seconds: The boy uses a virtual pencil to draw a simple childlike cat on the Z-plane. A luminous mapping effect carries the drawing into the W-plane, where it appears as a stylized tiger-like image. Both drawings remain recognizable.
+
+8–10 seconds: Show the Z-plane and W-plane side by side. The adult gestures between them, explaining that complex mappings transform points and shapes. Chinnama watches with amazement. End with all three characters visible.
+
+CONFORMAL MAPPING EXPLANATION:
+Represent the mapping as a mathematical illustration. A complex function maps an input z in the Z-plane to an output w in the W-plane. Where a complex function is analytic and has a nonzero derivative, it is locally angle-preserving.
+
+The cat-to-tiger visual is a fictional artistic demonstration of how a mapping can change a drawn image. Do not imply that every arbitrary cat drawing must mathematically become a tiger, or that this transformation is a property of the Riemann zeta function.
+
+TAMIL DIALOGUE:
+ADULT MAN:
+"இதுதான் சிக்கலான தளம்! Z-தளத்தில் வரையும் வடிவம், ஒரு mapping மூலம் W-தளத்தில் மாறலாம்!"
+
+BOY:
+"பூனை புலியாக மாறுதே!"
+
+CAMERA:
+Start with a medium-wide park shot. Show the portal opening behind the boy. Cut to a full-body shot of the adult emerging, ensuring the exact blue checked shirt and heavy body proportions remain visible. Move to the holographic planes and the cat-to-tiger illustration. Finish on a three-character composition.
+
+LIGHTING:
+Natural Madurai Eco Park late-afternoon light with subtle blue-white portal illumination, realistic shadows and authentic skin tones.
+
+SOUND:
+A cinematic portal sound, soft wind through trees, subtle futuristic musical tones and clear Tamil dialogue with natural lip synchronization.
+
+NEGATIVE PROMPT:
+No generic Tamil man, no replacement adult, no different face, no face swap, no face morphing, no identity drift, no different blue checked shirt, no plain shirt, no altered shirt pattern, no changed shirt colour, no changed glasses, no altered beard, no altered moustache, no changed hairstyle, no slimming, no body-shape alteration, no muscular transformation, no changed skin tone, no generic boy, no different child, no child ageing, no de-ageing, no changed orange tilak, no different cream shirt, no changed backpack, no changed body proportions, no generic woman, no different Chinnama, no changed green sari, no altered jewellery, no altered bindi, no age change, no morphing between boy and adult, no crossfade transformation, no face blending, no duplicate characters, no distorted hands, no incorrect axes, no incorrect equations, no cartoon humans.
+
+CONTINUITY:
+The adult is the exact same reference-locked adult who will explain the Riemann Hypothesis in Scenes 4 and 5. The boy remains exactly the same small child, and Chinnama remains the same 50-year-old woman. All three must be recognizable as the same individuals in every scene.
+
+### Scene 4 — The ruler, parabola, infinity loop and golden critical line
+
+10 seconds · High-speed mathematical transformation · Z-plane and W-plane
+
+MASTER VIDEO PROMPT — SCENE 4
+TITLE: THE PARABOLA, THE INFINITY LOOP AND THE GOLDEN CRITICAL LINE
+
+DURATION: EXACTLY 10 SECONDS
+FORMAT: Ultra-realistic live-action Tamil cinematic science-fiction film, 9:16 vertical, high-end holographic VFX, realistic human characters, precise mathematical graphics and dramatic cinematic lighting.
+
+INPUT IMAGE REFERENCE — MANDATORY:
+Use all three uploaded reference photographs as the primary visual sources. Reproduce the exact real characters from the images. Do not invent, redesign or replace their faces.
+
+CHARACTER 1 — ADULT TAMIL MATHEMATICIAN:
+Use the exact uploaded photograph of the heavy-built Tamil man in the blue checked shirt. Preserve his exact face, facial structure, skin tone, black rectangular glasses, hairstyle, moustache, beard, body proportions and exact blue checked shirt. The blue checked pattern, shirt colour, fit, sleeves and overall appearance must remain identical to the input photograph.
+
+CHARACTER 2 — SMALL BOY:
+Use the exact uploaded boy reference photograph. Preserve the same small child face, natural child age, short black hair, orange tilak, cream traditional embroidered shirt, backpack, skin tone and body proportions.
+
+CHARACTER 3 — CHINNAMA:
+Use the exact uploaded reference photograph of the 50-year-old woman. Preserve her exact face, age, skin tone, hairstyle, bindi, jewellery, green sari, blouse and body proportions.
+
+CHARACTER IDENTITY LOCK:
+Use the original photographs directly, with maximum practical face-reference strength, character-reference consistency, identity lock and seed lock. Keep all three characters physically stable while the mathematical holograms transform. No face morphing, ageing, de-ageing, face swap, identity drift, clothing drift or body-proportion changes.
+
+SCENE ACTION AND MATHEMATICAL SEQUENCE:
+
+0–2 SECONDS — THE STRAIGHT LINE:
+All three characters stand beside a giant luminous Z-plane in Madurai Eco Park. The adult takes a holographic ruler-like drawing tool and draws a perfectly straight vertical line on the Z-plane.
+
+The line is labelled:
+
+Re(z)=a
+
+A clear mathematical transformation appears:
+
+w=z²
+
+The adult draws attention to the line as it moves into the W-plane.
+
+2–4 SECONDS — THE PARABOLA:
+Show the exact mathematical image of the vertical line z=a+it under w=z²:
+
+w=(a+it)²
+w=(a²−t²)+i(2at)
+
+For a fixed nonzero real a, the resulting image is a sideways parabola in the W-plane:
+
+Re(w)=a²−(Im(w))²/(4a²)
+
+Animate the original straight vertical line on the Z-plane and its corresponding sideways parabola in the W-plane simultaneously. Keep the transformation smooth, understandable and visually spectacular.
+
+4–6 SECONDS — THE CIRCLE AND INFINITY-LIKE CURVE:
+The adult uses the holographic ruler to draw a circle parametrically in the Z-plane:
+
+z(t)=r e^(it)
+
+Show the corresponding image under w=z²:
+
+w(t)=r² e^(2it)
+
+The W-plane shows the same circle traced twice as t runs from 0 to 2π. Make this double winding visually apparent.
+
+Next, the adult draws a separate parametric figure-eight curve in the Z-plane, explicitly marked as a new illustrative curve rather than the image of the original circle. It appears as a glowing infinity-shaped curve in the W-plane through an artistic mapping demonstration.
+
+Do not claim that every circle under a conformal map becomes an infinity loop.
+
+6–8 SECONDS — THE LASER SCANNER:
+A bright golden vertical laser begins scanning across the Z-plane from left to right and right to left, repeatedly and rapidly. Its movement resembles high-speed laser scanning.
+
+The W-plane displays a rapidly changing pattern of mapped curves, loops and luminous scribbles. The animation accelerates into a beautiful, complex visual storm.
+
+The boy watches in astonishment. Chinnama remains beside him. The adult controls the scanner.
+
+8–10 SECONDS — THE CRITICAL LINE:
+All movement abruptly settles into silence. The complex holographic scribbles disappear, leaving one perfect vertical golden line in the complex s-plane.
+
+Display the equation:
+
+Re(s)=1/2
+
+A series of discrete, precious golden and silver jewel-like points begin to appear along the vertical line at different imaginary coordinates.
+
+The adult points to the line, establishing it as the central critical line that will be examined in the final scene.
+
+MATHEMATICAL ACCURACY:
+The mapping w=z² sends a nonzero vertical line z=a+it to a sideways parabola. The image of a circle centred at the origin under z² is also a circle, with the parameter traced twice. The infinity-shaped curve is a separate illustrative parametric curve, not a universal circle-mapping rule.
+
+The Riemann Hypothesis critical line is vertical:
+
+Re(s)=1/2
+
+It is not horizontal. Do not confuse the illustrative Z-plane and W-plane with the Riemann zeta function's s-plane.
+
+TAMIL DIALOGUE:
+ADULT MAN:
+"ஒரு நேர்கோடு பரபோலாவாக மாறுகிறது! வட்டம் இருமுறை சுற்றுகிறது! இப்போது பாரு... எல்லாம் இந்த மையக் கோட்டில் முடிகிறது!"
+
+VISUAL STYLE:
+Hyper-realistic park, advanced holographic mathematical display, cinematic blue, violet and gold illumination. The equations must be crisp, correctly oriented and readable. Keep holograms away from the characters' faces.
+
+CAMERA:
+Use a single continuous-feeling cinematic movement from the adult's holographic ruler to the Z-plane and W-plane. Show the parabola and circle transformation in split-screen-like holographic panels, then pull back to show all three characters and the final vertical golden line.
+
+SOUND:
+Precise electronic scanner sounds, rapidly accelerating science-fiction pulses, then a sudden quiet moment as the golden critical line appears. A deep cinematic orchestral note introduces the final mathematical discovery.
+
+NEGATIVE PROMPT:
+No horizontal critical line, no incorrect Re(s)=1/2 orientation, no incorrect equation for w=z², no claim that every circle maps to an infinity loop, no false mathematical statement, no random equations, no distorted graph axes, no generic adult, no replacement adult face, no changed blue checked shirt, no plain shirt, no changed glasses, no changed beard, no changed moustache, no changed hairstyle, no body slimming, no body enlargement, no altered face, no generic child, no child ageing, no different orange tilak, no changed cream embroidered shirt, no changed backpack, no generic woman, no changed green sari, no age change, no jewellery change, no morphing, no face swap, no identity drift, no clothing drift, no distorted anatomy, no duplicate characters, no cartoon humans.
+
+CONTINUITY:
+The same adult man, small boy and Chinnama from Scene 3 must appear unchanged. Only the holographic mathematical objects, laser scanner and camera perspective may change. The final golden vertical line must continue directly into the critical-strip visualization in Scene 5.
+
+### Scene 5 — Trivial zeros, non-trivial zeros and the Riemann Hypothesis
+
+10 seconds · Mathematical climax · The final discovery and portal return
+
+MASTER VIDEO PROMPT — SCENE 5
+TITLE: THE TRIVIAL ZEROS, THE NON-TRIVIAL ZEROS AND THE RIEMANN HYPOTHESIS
+
+DURATION: EXACTLY 10 SECONDS
+FORMAT: Ultra-realistic live-action Tamil cinematic science-fiction film, 9:16 vertical, dramatic scientific visualization, professional cinematic VFX, emotional character performances and mathematically accurate complex-plane graphics.
+
+INPUT IMAGE REFERENCE — MANDATORY:
+Refer directly to the three original uploaded photographs supplied with the generation request. Use them as the exact, authoritative visual references for every character. Do not invent new faces or substitute generic AI-generated people.
+
+CHARACTER 1 — ADULT FUTURE MATHEMATICIAN:
+Use the exact uploaded photograph of the heavy-built/fat Tamil man wearing the blue checked shirt. Preserve his exact face, facial structure, skin tone, black rectangular glasses, hairstyle, moustache, beard, heavy body proportions and exact blue checked shirt pattern, colour, style, sleeves and fit.
+
+CHARACTER 2 — SMALL BOY:
+Use the exact uploaded photograph of the small boy. Preserve his exact face, natural child age, skin tone, short black hair, orange tilak, cream traditional embroidered shirt, backpack and body proportions.
+
+CHARACTER 3 — CHINNAMA:
+Use the exact uploaded photograph of the 50-year-old Tamil woman. Preserve her exact face, natural age, skin tone, hairstyle, bindi, jewellery, green sari, blouse and body proportions.
+
+IDENTITY CONSISTENCY:
+All three uploaded photographs are mandatory character references. Use the highest practical available face-reference strength, character consistency, identity lock and seed lock. The same three people must appear unchanged from Scenes 1–4.
+
+The adult and child are separate individuals. The adult does not transform into the boy. The boy does not transform into the adult. Chinnama never changes her appearance. No face swap, no morphing, no ageing, no de-ageing, no body-shape changes and no clothing changes.
+
+SCENE ACTION:
+
+0–2 SECONDS — THE TRIVIAL ZEROS:
+Begin with all three characters standing before a giant holographic complex s-plane.
+
+The adult points toward the negative real axis. Small SILVER EGG-LIKE JEWEL LIGHTS appear at:
+
+s=−2, −4, −6, −8, ...
+
+The adult explains that these are the trivial zeros of the Riemann zeta function.
+
+Keep all the silver points on the negative real axis, with imaginary part zero.
+
+2–4 SECONDS — THE CRITICAL STRIP:
+The camera moves toward the complex plane and clearly reveals the critical strip:
+
+0<Re(s)<1
+
+Display the left boundary:
+
+Re(s)=0
+
+Display the right boundary:
+
+Re(s)=1
+
+A luminous vertical golden line appears exactly in the middle:
+
+Re(s)=1/2
+
+Label it:
+
+CRITICAL LINE
+
+The adult points to the line while the boy and Chinnama watch.
+
+4–6 SECONDS — THE NON-TRIVIAL ZEROS:
+Precious silver-gold egg-like points begin appearing at discrete locations along the central vertical line:
+
+s=1/2+iγ₁
+s=1/2+iγ₂
+s=1/2+iγ₃
+s=1/2+iγ₄
+
+Continue with additional discrete points in both positive and negative imaginary directions, representing the conjugate symmetry of the non-trivial zeros.
+
+Every illustrated non-trivial zero point is positioned on the critical line Re(s)=1/2.
+
+The points blink one after another like precious mathematical jewels, forming a beautiful vertical constellation.
+
+The adult explains that the Riemann Hypothesis conjectures that every non-trivial zero has real part exactly one-half.
+
+6–8 SECONDS — THE HYPOTHETICAL OFF-LINE ZERO:
+The adult gestures toward the central golden line. A hypothetical point appears a tiny distance to the right of the critical line:
+
+s=1/2+ε+iγ
+
+A second hypothetical point appears a tiny distance to the left:
+
+s=1/2−ε+iγ
+
+Both points are clearly marked:
+
+HYPOTHETICAL ONLY
+
+Show a warning:
+
+IF A TRUE NON-TRIVIAL ZERO IS OFF THE CRITICAL LINE, THE RIEMANN HYPOTHESIS IS FALSE.
+
+Do not label either hypothetical point as a known or discovered zero. Keep both points inside the critical strip by choosing a sufficiently small positive ε.
+
+Then the hypothetical points disappear, leaving the known illustrative zero points on the central golden line.
+
+8–10 SECONDS — THE RED LASER AND THE PORTAL:
+A brilliant red laser traces the vertical critical line parametrically:
+
+s(t)=1/2+it
+
+The laser moves from the lower part of the visible plane toward the upper part, passing through each illustrated non-trivial zero point.
+
+The critical line shines with a golden glow, and all silver-gold zero points remain discrete and aligned exactly on the vertical line.
+
+The adult turns toward the boy, smiles and walks into the blue-white time portal as the exact same heavy-built man in the blue checked shirt.
+
+The boy remains the exact same child. Chinnama remains the exact same 50-year-old woman.
+
+The portal closes naturally. There is no transformation of either remaining character.
+
+FINAL FRAME:
+Show only the exact same boy and exact same Chinnama together in Madurai Eco Park. The boy looks toward the fading red laser and the place where the adult disappeared. Chinnama stands beside him with a warm, encouraging expression.
+
+FINAL MATHEMATICAL DISPLAY:
+RIEMANN HYPOTHESIS
+
+NON-TRIVIAL ZEROS:
+s=1/2+iγ
+
+CONJECTURE:
+Re(s)=1/2
+
+STATUS:
+UNSOLVED MATHEMATICAL PROBLEM
+
+MATHEMATICAL ACCURACY:
+The trivial zeros are at the negative even integers −2, −4, −6, and so on, on the real axis.
+
+The non-trivial zeros are in the open critical strip 0<Re(s)<1. The Riemann Hypothesis asserts that all non-trivial zeros have real part 1/2.
+
+The critical line is vertical, not horizontal. A hypothetical non-trivial zero slightly to the left or right of that line but still inside the critical strip would contradict the Riemann Hypothesis if it were a genuine zero.
+
+Do not state or suggest that the Riemann Hypothesis has been proved. The golden and silver egg-like points are visual metaphors for zeros, not literal physical objects or claims of a solution.
+
+TAMIL DIALOGUE:
+ADULT MAN:
+"இவை trivial zeros. ஆனால் non-trivial zeros இந்த critical strip-க்குள் இருக்கின்றன!"
+
+ADULT MAN:
+"ஒவ்வொரு non-trivial zero-வும் Re(s)=1/2 என்ற கோட்டில்தான் இருக்க வேண்டும் என்பதுதான் Riemann Hypothesis!"
+
+BOY:
+"ஒன்று மட்டும் கோட்டை விட்டு விலகினால்?"
+
+ADULT MAN:
+"அது உண்மையான zero என்றால், இந்தக் கருதுகோள் பொய்யாகிவிடும்!"
+
+FINAL NARRATION:
+"ஒரு பெரிய கணித மர்மம்... இன்னும் விடை தேடுகிறது!"
+
+CAMERA:
+Use a precise, stable complex-plane shot for the zero visualization. Show the adult's pointing gesture without obscuring the critical line. Pull back to include all three characters before the adult enters the portal. End with a still, emotional wide shot of the boy and Chinnama.
+
+LIGHTING:
+Natural late-afternoon Madurai Eco Park lighting, blue-white portal illumination, red laser highlights and a golden critical line. Return to natural park lighting as the portal closes.
+
+SOUND:
+Deep cinematic orchestral score, subtle electronic sounds as each zero appears, a distinct red-laser scanning sound and a soft emotional musical resolution at the final frame. Dialogue must be clear, natural Tamil with accurate lip synchronization.
+
+NEGATIVE PROMPT:
+No generic Tamil man, no replacement adult face, no different blue checked shirt, no plain shirt, no altered shirt pattern, no different shirt colour, no altered glasses, no altered beard, no altered moustache, no hairstyle change, no face redesign, no slimming, no muscular transformation, no changed body proportions, no changed skin tone, no generic child, no child ageing, no child de-ageing, no changed orange tilak, no different cream traditional shirt, no changed backpack, no altered child face, no generic woman, no replacement Chinnama, no different green sari, no changed blouse, no changed bindi, no changed jewellery, no changed hairstyle, no altered age, no body-proportion change, no morphing, no face blending, no crossfade transformation, no identity drift, no clothing drift, no duplicate characters, no distorted anatomy, no incorrect complex-plane axes, no horizontal critical line, no incorrect placement of trivial zeros, no known off-line zeros, no false proof, no inaccurate mathematical labels, no random points identified as confirmed zeros, no transformation of the adult into the child, no transformation of the child into the adult.
+
+MASTER FINAL CONTINUITY:
+The adult remains the exact same heavy-built Tamil man from the blue-checked-shirt photograph throughout Scenes 3, 4 and 5.
+The boy remains the exact same small boy from the child photograph throughout Scenes 2, 3, 4 and 5.
+Chinnama remains the exact same 50-year-old Tamil woman from the woman photograph throughout all five scenes.
+
+The human characters remain physically stable and visually identical to the input images. Only the mathematical visualizations, camera movements, lighting and science-fiction portal effects may change.
+
+The film ends with the exact same small boy and Chinnama standing together in Madurai Eco Park, while the Riemann Hypothesis remains an unsolved mathematical mystery.
+
+### Mathematical continuity to preserve in editing
+
+| Z-plane           | Illustrative input complex plane for the drawings and mappings.                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| W-plane           | Image plane containing the transformed curves and drawings.                                              |
+|                   | A vertical line maps to a sideways parabola when .                                                       |
+| Critical strip    | , bounded by two vertical lines.                                                                         |
+| Critical line     | , a vertical line through the centre of the critical strip.                                              |
+| Trivial zeros     | , on the negative real axis.                                                                             |
+| Non-trivial zeros | Zeros in the critical strip, with the Riemann Hypothesis conjecturing that all lie on the critical line. |
+
+For a 10-second video, the dialogue is intentionally concise. If the generator cannot render mathematical notation reliably, add the equations and axis labels as overlays during editing, rather than allowing the model to invent mathematical text.
