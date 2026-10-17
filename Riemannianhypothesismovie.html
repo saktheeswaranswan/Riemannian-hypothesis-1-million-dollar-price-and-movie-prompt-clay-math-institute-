@@ -1,0 +1,921 @@
+Riemannian hypothesis best words command 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Riemann Zeta Zero Explorer — Fully Substituted Expansion</title>
+<style>
+:root{
+  color-scheme:dark;--bg:#0c111f;--panel:#121b2c;--border:#30415c;
+  --text:#f4f7ff;--muted:#aabbd3;--green:#2df082;
+  --orange:#ffb23e;--blue:#41c5ff
+}
+*{box-sizing:border-box}
+body{margin:0;padding:10px;background:var(--bg);color:var(--text);
+  font-family:Arial,Helvetica,sans-serif}
+.app{max-width:1200px;margin:auto}
+header{padding:12px 4px;border-bottom:1px solid var(--border)}
+h1{font-size:clamp(21px,4vw,30px);margin:0 0 8px}
+h2{font-size:21px}
+h3{font-size:16px;margin:0 0 8px}
+.subtitle,.note,.status,footer{color:var(--muted);font-size:13px;line-height:1.7}
+.panel,.graph-panel{background:var(--panel);border:1px solid var(--border);
+  border-radius:10px;padding:13px;margin:12px 0;min-width:0}
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.control-label{display:flex;justify-content:space-between;gap:8px;margin-bottom:10px}
+output{color:var(--blue);font-weight:bold}
+input[type=range]{width:100%;accent-color:var(--blue)}
+.range-labels{display:flex;justify-content:space-between;color:var(--muted);font-size:11px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+button{background:#202e46;color:white;border:1px solid #465a79;border-radius:7px;
+  padding:11px 13px;min-height:42px;cursor:pointer}
+button.calculate{background:#174d3a;border-color:#2d9b6c}
+button.active{border-color:var(--blue)}
+button:disabled{opacity:.6}
+.legend{display:flex;flex-wrap:wrap;gap:15px;font-size:13px;margin:10px 0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+.green{color:var(--green)}.orange{color:var(--orange)}.blue{color:var(--blue)}
+canvas{display:block;width:100%;height:clamp(300px,52vh,520px)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.stat{background:#0d1524;padding:12px;border-radius:7px;min-width:0}
+.stat small{display:block;color:var(--muted);margin-bottom:7px}
+.stat strong{overflow-wrap:anywhere}
+.formula{background:#0d1524;border-left:3px solid var(--blue);
+  padding:13px;margin:12px 0;line-height:1.8;overflow-wrap:anywhere}
+.equation{font-family:"Times New Roman",serif;font-size:18px;line-height:1.9}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e19;
+  padding:12px;border-radius:6px;font-size:12px;line-height:1.65}
+#formulaScreen{display:none}
+.status{min-height:24px;margin:12px 2px}
+footer{border-top:1px solid var(--border);padding:12px 2px}
+@media(max-width:650px){
+  .controls,.stats{grid-template-columns:1fr}
+  body{padding:7px}
+  button{flex:1 1 42%}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<header>
+  <h1>RIEMANN ZETA ZERO EXPLORER</h1>
+  <div class="subtitle">
+    Fully substituted finite explicit formula for the Chebyshev function ψ(x).<br>
+    <span class="green">Green: exact ψ(x)</span> |
+    <span class="orange">Orange: finite zero-sum approximation</span>
+  </div>
+</header>
+
+<section class="panel">
+  <h3>Load zero ordinates</h3>
+  <p class="note">
+    The built-in data contains the first 30 positive zero ordinates.
+    You can attempt to load an online table or choose a downloaded text file.
+  </p>
+  <div class="actions">
+    <button id="onlineBtn" class="calculate">Load online zeros</button>
+    <button id="fallbackBtn">Use first 30 zeros</button>
+    <button id="fileBtn">Load local text file</button>
+    <input id="fileInput" type="file" accept=".txt,.dat,text/plain" hidden>
+  </div>
+  <div class="control-label">
+    <span>Loaded positive ordinates</span>
+    <output id="loadedCount">30</output>
+  </div>
+  <div class="note" id="sourceInfo">Built-in fallback: first 30 ordinates.</div>
+</section>
+
+<div class="controls" id="graphControls">
+  <section class="panel">
+    <div class="control-label">
+      <label for="nSlider">Number of zero pairs N</label>
+      <output id="nValue">30</output>
+    </div>
+    <input id="nSlider" type="range" min="1" max="30" value="30">
+    <div class="range-labels"><span>1 pair</span><span id="nMax">30 pairs</span></div>
+  </section>
+  <section class="panel">
+    <div class="control-label">
+      <label for="xSlider">Maximum x</label>
+      <output id="xValue">200</output>
+    </div>
+    <input id="xSlider" type="range" min="20" max="500" value="200">
+    <div class="range-labels"><span>20</span><span>500</span></div>
+  </section>
+</div>
+
+<div class="actions">
+  <button id="exactBtn" class="active">Exact ψ: ON</button>
+  <button id="approxBtn" class="active">Approximation: ON</button>
+  <button id="calculateBtn" class="calculate">Calculate / redraw</button>
+  <button id="formulaBtn">Show canonical equations →</button>
+</div>
+
+<section id="graphScreen">
+  <div class="legend">
+    <span class="green"><span class="dot" style="background:var(--green)"></span>Exact ψ(x)</span>
+    <span class="orange"><span class="dot" style="background:var(--orange)"></span>Finite formula</span>
+  </div>
+  <div class="graph-panel">
+    <canvas id="chart" aria-label="Chebyshev function graph"></canvas>
+  </div>
+  <div class="stats">
+    <div class="stat"><small>Exact ψ(x)</small><strong class="green" id="exactStat">—</strong></div>
+    <div class="stat"><small>Approximation ψN(x)</small><strong class="orange" id="approxStat">—</strong></div>
+    <div class="stat"><small>Zero pairs</small><strong class="blue" id="nStat">N = 30</strong></div>
+  </div>
+  <p class="note">
+    The exact function jumps at prime powers. The finite sum is an
+    approximation and is not expected to match every jump exactly.
+  </p>
+</section>
+
+<section id="formulaScreen">
+  <section class="panel">
+    <h2>Canonical equations and fully substituted expansion</h2>
+
+    <div class="formula">
+      <h3>1. Riemann zeta function</h3>
+      <p class="equation">ζ(s) = Σ<sub>n=1</sub><sup>∞</sup> n<sup>−s</sup>, &nbsp; Re(s) &gt; 1</p>
+      <p class="equation">ρ<sub>k</sub> = ½ + iγ<sub>k</sub></p>
+      <p>The ordinates γ<sub>k</sub> are numerical approximations to the
+      imaginary parts of the selected non-trivial zeros. The global
+      Riemann Hypothesis remains unproved.</p>
+    </div>
+
+    <div class="formula">
+      <h3>2. Exact Chebyshev function</h3>
+      <p class="equation">
+        ψ(x) = Σ<sub>n≤x</sub> Λ(n)
+        = Σ<sub>p<sup>m</sup>≤x</sub> log p
+      </p>
+      <p>Λ(n) = log p when n is a positive power of a prime p, and zero otherwise.</p>
+      <p class="green" id="exactEquation">ψ(200) = —</p>
+    </div>
+
+    <div class="formula">
+      <h3>3. Explicit formula structure</h3>
+      <p class="equation">
+        ψ(x) = x − Σ<sub>ρ</sub> x<sup>ρ</sup>/ρ
+        − log(2π) − ½ log(1 − x<sup>−2</sup>)
+      </p>
+      <p>The zero sum is interpreted with the appropriate convergence
+      convention. A finite truncation is not the exact function.</p>
+    </div>
+
+    <div class="formula">
+      <h3>4. Conjugate-pair formula</h3>
+      <p class="equation">
+        ψ<sub>N</sub>(x) ≈ x − log(2π) − ½ log(1 − x<sup>−2</sup>)
+        − 2√x Σ<sub>k=1</sub><sup>N</sup>
+        [½ cos(γ<sub>k</sub> log x) + γ<sub>k</sub> sin(γ<sub>k</sub> log x)]
+        / [¼ + γ<sub>k</sub><sup>2</sup>]
+      </p>
+    </div>
+
+    <div class="formula">
+      <h3>5. Coefficients after numerical substitution</h3>
+      <p class="equation">
+        A<sub>k</sub> = −1/(¼ + γ<sub>k</sub><sup>2</sup>),
+        &nbsp;
+        B<sub>k</sub> = −2γ<sub>k</sub>/(¼ + γ<sub>k</sub><sup>2</sup>)
+      </p>
+      <p class="equation">
+        ψ<sub>N</sub>(x) ≈ x − log(2π) − ½ log(1 − x<sup>−2</sup>)
+        + √x Σ<sub>k=1</sub><sup>N</sup>
+        [A<sub>k</sub> cos(γ<sub>k</sub> log x)
+        + B<sub>k</sub> sin(γ<sub>k</sub> log x)]
+      </p>
+      <p>
+        Each A and B below is calculated numerically from the corresponding
+        zero ordinate. The expansion updates automatically when N changes.
+      </p>
+      <pre id="expandedFormula">Generating expansion…</pre>
+    </div>
+
+    <div class="formula">
+      <h3>6. Numerical zero ordinates</h3>
+      <p id="zeroSourceFormula">Source: built-in fallback.</p>
+      <pre id="zeroList">Loading zero ordinates…</pre>
+    </div>
+
+    <div class="formula">
+      <h3>7. Numerical comparison at selected x</h3>
+      <p id="comparisonN">N = 30</p>
+      <p id="comparisonX">x = 200</p>
+      <p id="comparisonApprox">Approximation = —</p>
+      <p id="comparisonDifference">Approximation − exact = —</p>
+    </div>
+
+    <div class="actions">
+      <button id="backBtn">← Back to graph</button>
+      <button id="copyBtn" class="calculate">Copy all equations and expansion</button>
+      <button id="formulaCalcBtn">Calculate / redraw</button>
+    </div>
+  </section>
+</section>
+
+<div class="status" id="status" role="status" aria-live="polite">Ready.</div>
+<footer>
+  Online source:
+  https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1<br>
+  Educational numerical experiment; it does not prove or disprove the Riemann Hypothesis.
+</footer>
+</div>
+
+<script>
+"use strict";
+
+// ============================================================
+// DATA
+// ============================================================
+
+const MAX_X = 500;
+const ZERO_URLS = [
+  "https://www-users.cse.umn.edu/~odlyzko/zeta_tables/zeros1",
+  "https://www.dtc.umn.edu/~odlyzko/zeta_tables/zeros1"
+];
+
+const fallbackGamma = [
+  14.1347251417347,21.0220396387716,25.0108575801457,
+  30.4248761258595,32.9350615877392,37.5861781588257,
+  40.9187190121475,43.3270732809150,48.0051508811672,
+  49.7738324776723,52.9703214777145,56.4462476970634,
+  59.3470440026024,60.8317785246098,65.1125440480816,
+  67.0798105294942,69.5464017111740,72.0671576744819,
+  75.7046906990839,77.1448400688748,79.3373750202494,
+  82.9103808540860,84.7354929805171,87.4252746131252,
+  88.8091112076345,92.4918992705585,94.6513440405199,
+  95.8706342282453,98.8311942181937,101.317851005731
+];
+
+let gamma = fallbackGamma.slice();
+let zeroSource = "Built-in fallback: first 30 ordinates";
+let chosenN = 30;
+let chosenX = 200;
+let exactVisible = true;
+let approxVisible = true;
+let approximationReady = false;
+let generation = 0;
+
+const psiExact = new Float64Array(MAX_X + 1);
+const piExact = new Int32Array(MAX_X + 1);
+const $ = id => document.getElementById(id);
+const canvas = $("chart");
+const ctx = canvas.getContext("2d");
+
+function status(s) {
+  $("status").textContent = s;
+}
+function selectedN() {
+  return Math.max(1, Math.min(chosenN, gamma.length));
+}
+function formatNumber(n, digits = 12) {
+  return Number(n).toFixed(digits);
+}
+function fmt(n) {
+  return Number.isFinite(n) ? n.toFixed(10) : "not finite";
+}
+
+// ============================================================
+// NUMERICALLY EXPANDED EQUATION
+//
+// psi_N(x) = x - log(2*pi) - 1/2 log(1-x^-2)
+//            + sqrt(x) * sum [A_k cos(gamma_k log x)
+//                             + B_k sin(gamma_k log x)]
+//
+// A_k = -1/(1/4 + gamma_k^2)
+// B_k = -2*gamma_k/(1/4 + gamma_k^2)
+// ============================================================
+
+function coefficientFor(g) {
+  const denominator = 0.25 + g * g;
+  return {
+    A: -1 / denominator,
+    B: -2 * g / denominator
+  };
+}
+
+function buildExpandedFormula() {
+  const N = selectedN();
+  const lines = [];
+
+  lines.push("ψ_" + N + "(x) = x − log(2π) − ½ log(1 − x⁻²)");
+  lines.push("          + √x × Σ of the following " + N + " terms:");
+  lines.push("");
+
+  for (let k = 0; k < N; k++) {
+    const g = gamma[k];
+    const c = coefficientFor(g);
+
+    lines.push(
+      "Term " + (k + 1) + " (γ_" + (k + 1) + " = " +
+      formatNumber(g) + "):"
+    );
+    lines.push(
+      "  (" + formatNumber(c.A) + ") cos(" +
+      formatNumber(g) + " log x)"
+    );
+    lines.push(
+      "  + (" + formatNumber(c.B) + ") sin(" +
+      formatNumber(g) + " log x)"
+    );
+    lines.push("");
+  }
+
+  lines.push("Full equation:");
+  lines.push(
+    "ψ_" + N + "(x) = x − log(2π) − ½ log(1 − x⁻²)"
+  );
+  lines.push(
+    " + √x × [ " +
+    gamma.slice(0, N).map((g, i) => {
+      const c = coefficientFor(g);
+      return "(" + formatNumber(c.A) + ") cos(" +
+        formatNumber(g) + " log x) + (" +
+        formatNumber(c.B) + ") sin(" +
+        formatNumber(g) + " log x)";
+    }).join("\n   + ") +
+    " ]"
+  );
+
+  lines.push("");
+  lines.push("Zero data source: " + zeroSource);
+  lines.push("Number of selected zero pairs: N = " + N);
+  lines.push("All coefficients above are numerically substituted.");
+  lines.push("The finite formula is an approximation, not exact ψ(x).");
+
+  $("expandedFormula").textContent = lines.join("\n");
+}
+
+// ============================================================
+// PARSE NUMERICAL ZERO TABLES
+// ============================================================
+
+function parseZeroTable(text) {
+  const rows = [];
+
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || /^[#%;]/.test(line)) continue;
+
+    const tokens = line.match(/[+-]?(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?/g);
+    if (!tokens) continue;
+
+    const remainder = line.replace(
+      /[+-]?(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?/g, ""
+    ).replace(/[\s,]+/g, "");
+    if (remainder) continue;
+
+    const nums = tokens.map(Number).filter(Number.isFinite);
+    if (nums.length) rows.push(nums);
+  }
+
+  if (!rows.length) throw new Error("No numeric rows found.");
+
+  const candidates = [
+    rows.map(r => r[r.length - 1]),
+    rows.filter(r => r.length >= 2).map(r => r[1])
+  ];
+
+  let best = null;
+  for (const candidate of candidates) {
+    const values = candidate.filter(v => v > 0);
+    if (values.length < 10) continue;
+
+    let increasing = 0;
+    for (let i = 1; i < values.length; i++) {
+      if (values[i] > values[i - 1]) increasing++;
+    }
+
+    const ratio = increasing / Math.max(1, values.length - 1);
+    if (values[0] >= 10 && values[0] <= 20 && ratio > 0.95 &&
+        (!best || values.length > best.length)) {
+      best = values;
+    }
+  }
+
+  if (!best) {
+    throw new Error("Could not identify increasing zero ordinates.");
+  }
+
+  const unique = [];
+  let previous = -Infinity;
+  for (const v of best) {
+    if (v > previous) {
+      unique.push(v);
+      previous = v;
+    }
+  }
+  return unique;
+}
+
+function updateZeroList() {
+  $("zeroList").textContent = gamma.map((g, i) =>
+    String(i + 1).padStart(3, " ") +
+    "   γ_" + (i + 1) + " = " + formatNumber(g)
+  ).join("\n");
+}
+
+function updateZeroSource() {
+  $("loadedCount").textContent = gamma.length.toLocaleString();
+  $("sourceInfo").textContent = zeroSource;
+  $("zeroSourceFormula").textContent = "Source: " + zeroSource;
+
+  $("nSlider").max = String(gamma.length);
+  chosenN = Math.max(1, Math.min(chosenN, gamma.length));
+  $("nSlider").value = String(chosenN);
+  $("nValue").textContent = chosenN;
+  $("nMax").textContent = gamma.length + " pairs";
+
+  updateZeroList();
+  buildExpandedFormula();
+}
+
+// ============================================================
+// ONLINE AND LOCAL LOADING
+// ============================================================
+
+async function loadOnlineZeros() {
+  $("onlineBtn").disabled = true;
+  status("Trying online zero tables…");
+  let lastError = null;
+
+  try {
+    for (const url of ZERO_URLS) {
+      try {
+        const response = await fetch(url, {cache:"no-store"});
+        if (!response.ok) throw new Error("HTTP " + response.status);
+
+        const parsed = parseZeroTable(await response.text());
+        gamma = parsed;
+        zeroSource = "Online table: " + url;
+        updateZeroSource();
+        invalidate("Online zero table loaded. Press Calculate / redraw.");
+        return;
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    throw lastError || new Error("Online source unavailable.");
+  } catch (err) {
+    status("Online loading failed: " + err.message +
+      ". Download the plain-text table and load it locally.");
+  } finally {
+    $("onlineBtn").disabled = false;
+  }
+}
+
+async function loadLocalFile(file) {
+  if (!file) return;
+  try {
+    const parsed = parseZeroTable(await file.text());
+    gamma = parsed;
+    zeroSource = "Local file: " + file.name;
+    updateZeroSource();
+    invalidate("Local zero table loaded. Press Calculate / redraw.");
+  } catch (err) {
+    status("File loading failed: " + err.message);
+  }
+}
+
+function useFallback() {
+  gamma = fallbackGamma.slice();
+  zeroSource = "Built-in fallback: first 30 ordinates";
+  updateZeroSource();
+  invalidate("Using the first 30 fallback ordinates.");
+}
+
+// ============================================================
+// EXACT PRIME COUNTING AND CHEBYSHEV PSI
+// ============================================================
+
+function calculateExactFunctions() {
+  const prime = new Uint8Array(MAX_X + 1);
+  prime.fill(1);
+  prime[0] = 0;
+  prime[1] = 0;
+
+  for (let p = 2; p * p <= MAX_X; p++) {
+    if (prime[p]) {
+      for (let m = p * p; m <= MAX_X; m += p) {
+        prime[m] = 0;
+      }
+    }
+  }
+
+  let count = 0;
+  for (let x = 0; x <= MAX_X; x++) {
+    if (x >= 2 && prime[x]) count++;
+    piExact[x] = count;
+  }
+
+  const lambda = new Float64Array(MAX_X + 1);
+  for (let p = 2; p <= MAX_X; p++) {
+    if (!prime[p]) continue;
+
+    let power = p;
+    while (power <= MAX_X) {
+      lambda[power] = Math.log(p);
+      if (power > Math.floor(MAX_X / p)) break;
+      power *= p;
+    }
+  }
+
+  let sum = 0;
+  for (let x = 0; x <= MAX_X; x++) {
+    sum += lambda[x];
+    psiExact[x] = sum;
+  }
+}
+
+// ============================================================
+// EVALUATE THE NUMERICAL FINITE SUM
+// ============================================================
+
+function psiTruncated(x, N) {
+  if (x <= 1) return 0;
+
+  const logx = Math.log(x);
+  let result = x - Math.log(2 * Math.PI)
+    - 0.5 * Math.log(1 - 1 / (x * x));
+  const rootx = Math.sqrt(x);
+
+  for (let k = 0; k < N; k++) {
+    const g = gamma[k];
+    const c = coefficientFor(g);
+    result += rootx * (
+      c.A * Math.cos(g * logx) +
+      c.B * Math.sin(g * logx)
+    );
+  }
+  return result;
+}
+
+// ============================================================
+// CALCULATION STATE
+// ============================================================
+
+function calculateApproximation() {
+  const token = ++generation;
+  const N = selectedN();
+  const xmax = chosenX;
+
+  approximationReady = false;
+  $("calculateBtn").disabled = true;
+  $("formulaCalcBtn").disabled = true;
+  status("Calculating N = " + N + "…");
+  buildExpandedFormula();
+  drawChart();
+
+  setTimeout(() => {
+    if (token !== generation) {
+      $("calculateBtn").disabled = false;
+      $("formulaCalcBtn").disabled = false;
+      return;
+    }
+
+    try {
+      // Evaluate all integer points up to the selected maximum.
+      for (let x = 2; x <= xmax; x++) {
+        psiTruncated(x, N);
+      }
+
+      approximationReady = true;
+      updateStats();
+      drawChart();
+      status("Calculated the finite approximation for N = " + N + ".");
+    } catch (err) {
+      status("Calculation failed: " + err.message);
+    } finally {
+      $("calculateBtn").disabled = false;
+      $("formulaCalcBtn").disabled = false;
+    }
+  }, 20);
+}
+
+function invalidate(message) {
+  generation++;
+  approximationReady = false;
+  $("calculateBtn").disabled = false;
+  $("formulaCalcBtn").disabled = false;
+  buildExpandedFormula();
+  updateStats();
+  drawChart();
+  status(message);
+}
+
+// ============================================================
+// UPDATE NUMERICAL COMPARISON
+// ============================================================
+
+function updateStats() {
+  $("nValue").textContent = chosenN;
+  $("xValue").textContent = chosenX;
+  $("nStat").textContent = "N = " + chosenN;
+
+  $("exactStat").textContent = fmt(psiExact[chosenX]);
+  $("exactEquation").textContent =
+    "ψ(" + chosenX + ") = " + psiExact[chosenX].toPrecision(14);
+
+  $("comparisonN").textContent =
+    "N = " + chosenN + " of " + gamma.length + " loaded ordinates";
+  $("comparisonX").textContent = "x = " + chosenX;
+
+  if (approximationReady) {
+    const approx = psiTruncated(chosenX, selectedN());
+    const diff = approx - psiExact[chosenX];
+    $("approxStat").textContent = fmt(approx);
+    $("comparisonApprox").textContent =
+      "ψ_N(" + chosenX + ") = " + approx.toPrecision(14);
+    $("comparisonDifference").textContent =
+      "Approximation − exact = " + diff.toPrecision(14);
+  } else {
+    $("approxStat").textContent = "Not calculated";
+    $("comparisonApprox").textContent = "Approximation not calculated.";
+    $("comparisonDifference").textContent = "Difference not calculated.";
+  }
+
+  $("exactBtn").textContent = "Exact ψ: " + (exactVisible ? "ON" : "OFF");
+  $("approxBtn").textContent = "Approximation: " + (approxVisible ? "ON" : "OFF");
+  $("exactBtn").classList.toggle("active", exactVisible);
+  $("approxBtn").classList.toggle("active", approxVisible);
+}
+
+// ============================================================
+// RESPONSIVE CANVAS GRAPH
+// ============================================================
+
+function resizeCanvas() {
+  const r = canvas.getBoundingClientRect();
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = Math.max(1, Math.round(r.width * dpr));
+  canvas.height = Math.max(1, Math.round(r.height * dpr));
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  drawChart();
+}
+
+function drawChart() {
+  const r = canvas.getBoundingClientRect();
+  const W = r.width, H = r.height;
+  if (!W || !H) return;
+
+  ctx.clearRect(0, 0, W, H);
+  ctx.fillStyle = "#121b2c";
+  ctx.fillRect(0, 0, W, H);
+
+  const left = W < 450 ? 52 : 65;
+  const right = W - 12, top = 18, bottom = H - 42;
+  const pw = right - left, ph = bottom - top;
+  if (pw <= 0 || ph <= 0) return;
+
+  const xmax = chosenX;
+  const N = selectedN();
+  const count = Math.max(2, Math.floor((xmax - 2) * 4) + 1);
+  const xs = new Float64Array(count);
+  const ys = new Float64Array(count);
+
+  let ymin = Infinity, ymax = -Infinity;
+
+  for (let i = 0; i < count; i++) {
+    const x = 2 + (xmax - 2) * i / (count - 1);
+    xs[i] = x;
+    ys[i] = approximationReady ? psiTruncated(x, N) : NaN;
+
+    if (approxVisible && Number.isFinite(ys[i])) {
+      ymin = Math.min(ymin, ys[i]);
+      ymax = Math.max(ymax, ys[i]);
+    }
+  }
+
+  if (exactVisible) {
+    for (let x = 2; x <= xmax; x++) {
+      ymin = Math.min(ymin, psiExact[x]);
+      ymax = Math.max(ymax, psiExact[x]);
+    }
+  }
+
+  if (!Number.isFinite(ymin) || !Number.isFinite(ymax)) {
+    ymin = 0;
+    ymax = Math.max(10, psiExact[xmax] * 1.2);
+  }
+  if (ymax - ymin < 1e-8) { ymin -= 1; ymax += 1; }
+
+  const pad = (ymax - ymin) * 0.08;
+  ymin -= pad;
+  ymax += pad;
+
+  const X = x => left + (x - 2) / (xmax - 2) * pw;
+  const Y = y => bottom - (y - ymin) / (ymax - ymin) * ph;
+
+  ctx.font = "11px Arial";
+  ctx.textBaseline = "middle";
+
+  for (let i = 0; i <= 5; i++) {
+    const y = ymin + (ymax - ymin) * i / 5;
+    const py = Y(y);
+    ctx.strokeStyle = "#30415a";
+    ctx.beginPath();
+    ctx.moveTo(left, py);
+    ctx.lineTo(right, py);
+    ctx.stroke();
+    ctx.fillStyle = "#b7c5d9";
+    ctx.textAlign = "right";
+    ctx.fillText(y.toFixed(2), left - 7, py);
+  }
+
+  for (let i = 0; i <= 5; i++) {
+    const x = Math.round(2 + (xmax - 2) * i / 5);
+    const px = X(x);
+    ctx.strokeStyle = "#293a52";
+    ctx.beginPath();
+    ctx.moveTo(px, top);
+    ctx.lineTo(px, bottom);
+    ctx.stroke();
+    ctx.fillStyle = "#b7c5d9";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "top";
+    ctx.fillText(String(x), px, bottom + 7);
+  }
+
+  if (exactVisible) {
+    ctx.strokeStyle = "#2df082";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(X(2), Y(psiExact[2]));
+    let prev = psiExact[2];
+
+    for (let x = 3; x <= xmax; x++) {
+      ctx.lineTo(X(x), Y(prev));
+      if (psiExact[x] !== prev) ctx.lineTo(X(x), Y(psiExact[x]));
+      prev = psiExact[x];
+    }
+    ctx.lineTo(X(xmax), Y(prev));
+    ctx.stroke();
+  }
+
+  if (approxVisible && approximationReady) {
+    ctx.strokeStyle = "#ffb23e";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    for (let i = 0; i < count; i++) {
+      if (i === 0) ctx.moveTo(X(xs[i]), Y(ys[i]));
+      else ctx.lineTo(X(xs[i]), Y(ys[i]));
+    }
+    ctx.stroke();
+  }
+
+  ctx.fillStyle = "#d7e2f2";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "bottom";
+  ctx.fillText("x", (left + right) / 2, H - 2);
+
+  ctx.save();
+  ctx.translate(12, (top + bottom) / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.textAlign = "center";
+  ctx.textBaseline = "top";
+  ctx.fillText("Chebyshev ψ(x)", 0, 0);
+  ctx.restore();
+
+  if (!approximationReady && approxVisible) {
+    ctx.fillStyle = "#ffb23e";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.font = "13px Arial";
+    ctx.fillText("Press Calculate / redraw for orange curve",
+      (left + right) / 2, top + 18);
+  }
+}
+
+// ============================================================
+// SCREEN NAVIGATION
+// ============================================================
+
+function showScreen(name) {
+  $("graphScreen").style.display = name === "graph" ? "block" : "none";
+  $("graphControls").style.display = name === "graph" ? "grid" : "none";
+  $("formulaScreen").style.display = name === "formula" ? "block" : "none";
+  $("formulaBtn").style.display = name === "graph" ? "inline-block" : "none";
+
+  if (name === "formula") buildExpandedFormula();
+  if (name === "graph") requestAnimationFrame(resizeCanvas);
+}
+
+// ============================================================
+// COPY COMPLETE EQUATIONS AND NUMERICAL EXPANSION
+// ============================================================
+
+async function copyText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      const area = document.createElement("textarea");
+      area.value = text;
+      area.style.position = "fixed";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      const ok = document.execCommand("copy");
+      area.remove();
+      if (!ok) throw new Error("Copy failed");
+    }
+    status("Equations and substituted coefficients copied.");
+  } catch (err) {
+    status("Copy blocked by browser. Select and copy the expansion manually.");
+  }
+}
+
+$("copyBtn").addEventListener("click", () => {
+  const N = selectedN();
+  const text =
+    "RIEMANN ZETA ZERO EXPLORER\n\n" +
+    "ζ(s) = sum_{n=1}^infinity n^(-s), Re(s)>1\n" +
+    "rho_k = 1/2 + i gamma_k\n\n" +
+    "psi(x) = sum_{n<=x} Lambda(n) = sum_{p^m<=x} log(p)\n\n" +
+    "psi_N(x) = x - log(2*pi) - 0.5*log(1-x^(-2))\n" +
+    " + sqrt(x) * sum [A_k*cos(gamma_k*log(x)) + " +
+    "B_k*sin(gamma_k*log(x))]\n\n" +
+    "A_k = -1/(1/4 + gamma_k^2)\n" +
+    "B_k = -2*gamma_k/(1/4 + gamma_k^2)\n\n" +
+    $("expandedFormula").textContent + "\n\n" +
+    $("zeroList").textContent + "\n\n" +
+    "N = " + N + "\nx = " + chosenX + "\n" +
+    "Exact psi(x) = " + psiExact[chosenX] + "\n" +
+    (approximationReady
+      ? "Approximation = " + psiTruncated(chosenX, N) + "\n" +
+        "Difference = " +
+        (psiTruncated(chosenX, N) - psiExact[chosenX])
+      : "Approximation has not yet been calculated.") +
+    "\n\nA finite zero sum is not a proof of the Riemann Hypothesis.";
+  copyText(text);
+});
+
+// ============================================================
+// EVENT HANDLERS
+// ============================================================
+
+$("onlineBtn").addEventListener("click", loadOnlineZeros);
+$("fallbackBtn").addEventListener("click", useFallback);
+$("fileBtn").addEventListener("click", () => $("fileInput").click());
+
+$("fileInput").addEventListener("change", event => {
+  loadLocalFile(event.target.files && event.target.files[0]);
+  event.target.value = "";
+});
+
+$("nSlider").addEventListener("input", event => {
+  chosenN = Number(event.target.value);
+  $("nValue").textContent = chosenN;
+  invalidate("N changed. Numerical coefficients updated.");
+});
+
+$("xSlider").addEventListener("input", event => {
+  chosenX = Number(event.target.value);
+  $("xValue").textContent = chosenX;
+  invalidate("Maximum x changed. Press Calculate / redraw.");
+});
+
+$("exactBtn").addEventListener("click", () => {
+  exactVisible = !exactVisible;
+  updateStats();
+  drawChart();
+});
+
+$("approxBtn").addEventListener("click", () => {
+  approxVisible = !approxVisible;
+  updateStats();
+  drawChart();
+});
+
+$("calculateBtn").addEventListener("click", calculateApproximation);
+$("formulaCalcBtn").addEventListener("click", calculateApproximation);
+$("formulaBtn").addEventListener("click", () => showScreen("formula"));
+$("backBtn").addEventListener("click", () => showScreen("graph"));
+
+// ============================================================
+// STARTUP
+// ============================================================
+
+calculateExactFunctions();
+updateZeroSource();
+updateStats();
+buildExpandedFormula();
+
+if ("ResizeObserver" in window) {
+  new ResizeObserver(resizeCanvas).observe(canvas);
+} else {
+  window.addEventListener("resize", resizeCanvas);
+}
+requestAnimationFrame(resizeCanvas);
+</script>
+</body>
+</html>
