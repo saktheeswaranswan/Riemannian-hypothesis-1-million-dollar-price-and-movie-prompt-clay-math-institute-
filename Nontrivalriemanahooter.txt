@@ -1,0 +1,217 @@
+Here are the two independent, copy-ready prompts. Each is exactly 20 seconds and designed for consecutive video generation.
+
+### SNIPPET 01 — THE HUNDRED VERTICAL SCANS (00:00–00:20)
+
+```text
+
+TITLE: THE RIEMANN ZERO HUNT — THE SEARCH BEGINS
+DURATION: 20 SECONDS
+
+Create a photorealistic, spectacular cinematic science-fiction scene inside the Grand Museum of Prime Numbers. A gigantic holographic complex plane floats in the air, surrounded by ancient Roman architecture, golden mathematical instruments and a cosmic star-filled ceiling.
+
+CHARACTER IDENTITY LOCK:
+GREEN-SHIRT SCIENTIST: Preserve the exact supplied reference face, glasses, moustache, forehead sacred ash, red kumkum, dark-green shirt, black trousers and shoes.
+BLACK-CHECKED-SHIRT SCIENTIST: Preserve the exact reference face, glasses, moderate-heavy bulky physique, black checked shirt and dark trousers.
+RED-SHIRT SCIENTIST: Preserve the exact reference face, glasses, red shirt, cream trousers and accessories.
+
+Never change their identities, faces, body proportions or costumes.
+
+00:00–00:03:
+The green-shirt scientist activates a brilliant blue-white Jedi-style laser sword. A giant complex plane appears.
+
+Horizontal axis: Re(s) = σ.
+Vertical axis: Im(s) = t.
+Critical strip: 0 < Re(s) < 1.
+
+The starting marker illuminates at Re(s) = 0.
+
+The black-checked-shirt scientist activates an advanced numerical scanning machine.
+
+00:03–00:08:
+The green-shirt scientist moves his laser sword from LEFT TO RIGHT, cutting through 100 individually visible, extremely fine vertical laser lines.
+
+Show the mathematical progression:
+
+σ(k) = k/200, k = 0,1,2,...,100.
+
+0.000, 0.005, 0.010, 0.015, ... 0.485, 0.490, 0.495, 0.500.
+
+Every line is a separate vertical scanning plane. All 100 lines appear sequentially, not as one rectangular block.
+
+The scanner examines different imaginary coordinates t using analytic continuation of the Riemann zeta function.
+
+00:08–00:12:
+The green-shirt scientist advances through 0.1, 0.2, 0.3, 0.4 and 0.45.
+
+His sword sweeps horizontally through the vertical scan lines. Blue, violet and golden laser waves travel across the complex plane.
+
+The scientist says:
+"Something special is approaching. What happens at one-half?"
+
+00:12–00:16:
+At approximately 0.475, the museum becomes dark.
+
+A gigantic blue-and-golden hologram of historical mathematician Bernhard Riemann materializes above the complex plane.
+
+Riemann raises his hand. A magnificent golden vertical line appears at:
+
+Re(s) = 1/2.
+
+He projects:
+
+s = 1/2 + it.
+
+RIEMANN DIALOGUE:
+"Wait, my friend! You are approaching the critical line. The real part of this complex variable is exactly one-half."
+
+00:16–00:19:
+The critical strip illuminates:
+
+0 < Re(s) < 1.
+
+The central line glows:
+
+Re(s) = 1/2.
+
+Golden zero markers appear at different imaginary coordinates.
+
+Riemann explains:
+"The Riemann Hypothesis proposes that every non-trivial zero lies on this special vertical line."
+
+00:19–00:20:
+The green-shirt scientist raises his sword. The golden critical line extends toward infinity.
+
+Riemann declares:
+"Now investigate the zeros. Their locations are connected to the distribution of prime numbers!"
+
+CAMERA TRANSITION:
+Fly directly along the golden critical line into the next scene.
+
+VISUAL REQUIREMENTS:
+Cinematic 3D realism, physically consistent character appearances, spectacular volumetric lighting, individually visible scanning lines, precise mathematical labels, dramatic laser sword movements and smooth camera movement.
+```
+
+### SNIPPET 02 — THE ZERO GUARDIANS (00:20–00:40)
+
+```text
+
+TITLE: THE RIEMANN ZERO HUNT — THE GUARDIANS OF THE CRITICAL LINE
+DURATION: 20 SECONDS
+CONTINUATION: DIRECTLY FROM VIDEO PROMPT 01.
+
+CHARACTER AND ENVIRONMENT CONTINUITY:
+Use exactly the same three characters, original reference faces, clothing, body proportions, museum, complex plane and laser sword.
+
+The golden critical line at Re(s) = 1/2 remains illuminated.
+
+00:00–00:04:
+The green-shirt scientist continues moving his laser sword from LEFT TO RIGHT.
+
+Show the final scanning coordinates:
+
+0.475 → 0.480 → 0.485 → 0.490 → 0.495 → 0.500.
+
+Each vertical laser line lights up independently.
+
+The sword finally touches the golden critical line.
+
+The scientist shouts:
+"I have reached one-half! Why is this line so important?"
+
+00:04–00:08:
+Bernhard Riemann appears in a giant hologram.
+
+He projects:
+
+ζ(1/2 + iγ) = 0.
+
+Riemann explains:
+"The non-trivial zeros are complex numbers inside the critical strip. Their real parts are conjectured to be exactly one-half. This is the Riemann Hypothesis, and it remains unproved."
+
+00:08–00:13:
+Suddenly, powerful supernatural cosmic guardians emerge at the numerical locations of non-trivial zeros.
+
+They look like gigantic dark demons with glowing red eyes, golden flames, violet electrical energy and blue cosmic armour.
+
+They emerge at different imaginary heights along the complex plane.
+
+The green-shirt scientist activates a powerful Ghostbusters-style mathematical capture machine.
+
+He points his laser sword at the guardians.
+
+Golden laser beams extend toward the demons. Circular energy fields surround them. The capture machine pulls them toward a magnificent golden collection pot bearing the symbol:
+
+ζ(s)
+
+Each captured guardian transforms into a brilliant golden mathematical energy sphere.
+
+Display:
+
+s = 1/2 + iγ
+
+and the corresponding conjugate:
+
+s = 1/2 - iγ.
+
+00:13–00:16:
+On the other side, the red-shirt scientist examines shiny black egg-shaped objects.
+
+These represent the trivial zeros:
+
+s = -2, -4, -6, -8, ...
+
+He collects the black eggs in a separate earthen pot.
+
+The pot is labelled:
+
+TRIVIAL ZEROS
+NEGATIVE EVEN INTEGERS
+
+The red-shirt scientist asks:
+"Are these also the special zeros?"
+
+The green-shirt scientist replies:
+"No! These are trivial zeros. They are different from the non-trivial zeros that we are investigating."
+
+Keep the golden non-trivial-zero pot and black trivial-zero pot completely separate.
+
+00:16–00:19:
+Bernhard Riemann projects an enormous golden mathematical formula:
+
+ψ(x) = x - Σρ x^ρ/ρ + additional terms.
+
+He explains:
+"The non-trivial zeros encode the oscillating corrections in the distribution of prime numbers. Their imaginary coordinates influence the fine structure of prime-counting functions. They do not provide a simple direct recipe for finding every prime."
+
+The green-shirt scientist looks at the golden pot with amazement.
+
+00:19–00:20:
+All three scientists stand together.
+
+The green-shirt scientist holds the golden non-trivial-zero collection pot.
+
+The red-shirt scientist holds the black trivial-zero pot.
+
+The black-checked-shirt scientist looks toward the enormous golden critical strip.
+
+Riemann's hologram points toward the central line.
+
+FINAL DISPLAY:
+
+THE RIEMANN HYPOTHESIS
+
+THE MYSTERY OF THE NON-TRIVIAL ZEROS
+
+Re(s) = 1/2
+
+FINAL VOICE:
+"One-half is not merely another coordinate. It is the central line of one of mathematics' greatest unsolved mysteries."
+
+End with a spectacular golden mathematical explosion.
+
+VISUAL REQUIREMENTS:
+Photorealistic cinematic 3D rendering, realistic faces, consistent characters, dramatic supernatural guardians, Ghostbusters-style energy capture, brilliant golden laser beams, scientifically meaningful mathematical labels and spectacular cinematic ending.
+
+SCIENTIFIC ACCURACY:
+The trivial zeros are at negative even integers. The non-trivial zeros lie in the critical strip. Their all lying on Re(s) = 1/2 is the unproved Riemann Hypothesis. Never portray the conjecture as an established theorem.
+```
