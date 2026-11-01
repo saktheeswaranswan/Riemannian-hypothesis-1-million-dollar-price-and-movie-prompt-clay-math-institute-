@@ -1,0 +1,1148 @@
+### THE MUSEUM OF PRIMES
+
+### THE GREEDY SCIENTIST AND THE GOLDEN ZEROS
+
+I will use the four-character version from your complete screenplay. This is important because the black-checked-shirt man and the greedy scientist are two different people.
+
+### Permanent character identity mapping — repeated in every scene
+
+| Character | Exact visual identity                              | Role                            |
+| --------- | -------------------------------------------------- | ------------------------------- |
+| A         | Original red-shirt Tamil man                       | Curious questioner              |
+| B         | Original green-shirt Tamil man                     | Mathematical expert             |
+| C         | Original heavy-built black-checked-shirt Tamil man | Technical expert and rival      |
+| D         | Separate tall Tamil man wearing a long black suit  | Greedy scientist and antagonist |
+
+Mandatory image-reference instructions for every prompt:
+
+* Attach the original red-shirt photograph as Character A's identity reference.
+
+* Attach the original green-shirt photograph as Character B's identity reference.
+
+* Attach the original black-checked-shirt photograph as Character C's identity reference.
+
+* Attach a separate black-suit scientist reference photograph for Character D, if available. Otherwise, establish one consistent generated appearance and reuse it in every scene.
+
+* Never exchange identities, faces, clothes, voices or body proportions.
+
+* Character C must remain heavy-built. Character D must remain a separate tall man in a black suit.
+
+* All four characters must appear as specified, including scenes where some are in the background.
+
+* Historical mathematicians appear only as portraits, statues or holographic documents.
+
+* Each prompt must work independently. Never depend on another scene's text for character identity.
+
+Production format: 16:9, photorealistic cinematic 3D, 4K-style rendering, exactly 10 seconds, Tamil dialogue, English subtitles, realistic lip synchronization, professional cinematography, original orchestral soundtrack.
+
+The following are separate code blocks so that you can copy each scene individually.
+
+### SNIPPET 01 OF 15 — THE FIRST GATE TO INFINITY
+
+00:00–00:10 | THE MUSEUM OF PRIMES — GRAND FOYER
+
+```text
+CREATE A 10-SECOND PHOTOREALISTIC CINEMATIC 3D VIDEO.
+TITLE: EUCLID — THE FIRST GATE TO INFINITY.
+ASPECT RATIO: 16:9. QUALITY: 4K cinematic appearance.
+
+MANDATORY FOUR-CHARACTER IDENTITY REFERENCES:
+
+CHARACTER A — RED SHIRT:
+Use the original uploaded red-shirt Tamil man's photograph. Reproduce his exact face, eyes, nose, mouth, ears, hairstyle, skin tone, facial hair, body proportions, apparent age and exact red-shirt clothing. He is curious, expressive, courageous and observant. He asks questions.
+
+CHARACTER B — GREEN SHIRT:
+Use the original uploaded green-shirt Tamil man's photograph. Reproduce his exact facial structure, eyes, nose, mouth, ears, hairstyle, skin tone, body proportions, apparent age and exact green-shirt clothing. He is intelligent, calm, analytical and scientifically responsible.
+
+CHARACTER C — BLACK CHECKED SHIRT:
+Use the original uploaded heavy-built Tamil man's photograph. Reproduce his exact face, hairstyle, skin tone, facial features, heavy body proportions, apparent age and exact black checked shirt. He is technically knowledgeable, confident and the intellectual rival of the greedy scientist. Never make him thin.
+
+CHARACTER D — GREEDY SCIENTIST:
+A separate, tall Tamil man wearing a long, elegant black suit, black trousers, black formal shoes and a dark shirt. He has a distinctive calculating expression, ambitious eyes and an obsessive personality. He is the principal antagonist. He is NOT Character C. Maintain exactly the same appearance throughout all 15 scenes.
+
+ABSOLUTE IDENTITY LOCK:
+All four characters are different individuals. Use their respective photographs as strict identity references. No face swapping, blending, morphing, aging, de-aging, body reshaping, costume switching, character duplication or replacement. Never combine Character C and Character D. Preserve Tamil voices and accents.
+
+SCENE:
+Open inside an enormous futuristic mathematical museum. The monumental entrance displays:
+THE MUSEUM OF PRIMES.
+
+The floor contains glowing mathematical equations. Golden prime numbers 2, 3, 5, 7, 11, 13, 17 and 19 rotate around a gigantic transparent golden globe.
+
+All four characters enter together. Character A looks upward in astonishment. Character B studies the floating numbers. Character C examines the mathematical architecture. Character D stands slightly behind them, staring greedily at the golden numerical collection.
+
+DIALOGUE:
+00:00–00:02 — Cinematic aerial entrance shot.
+00:02–00:05 — CHARACTER A:
+"இந்த எண்களின் மர்மம் எங்கிருந்து தொடங்கியது?"
+English subtitle: "Where did the mystery of these numbers begin?"
+
+00:05–00:07 — CHARACTER B:
+"யூக்ளிட் காலத்திலிருந்தே!"
+English subtitle: "It goes back to Euclid!"
+
+00:07–00:10 — CHARACTER D:
+"இந்த ரகசியங்கள் அனைத்தும் எனக்குச் சொந்தமாக வேண்டும்!"
+English subtitle: "I want all these secrets to belong to me!"
+
+CHARACTER C silently notices the scientist's greed.
+
+NARRATION:
+"From ancient Greece to artificial intelligence, humanity has pursued the secrets of prime numbers."
+
+CAMERA:
+24 mm wide cinematic lens, smooth dolly forward, volumetric lighting, realistic facial expressions, detailed fabric textures and a final movement towards an enormous ancient Greek stone doorway.
+
+AUDIO:
+Deep mysterious orchestral opening, cello, Tamil veena, temple bells, mridangam heartbeat and atmospheric choir. Introduce a distinctive three-note villain motif when Character D speaks.
+
+END:
+The camera enters the ancient Greek doorway.
+```
+
+### SNIPPET 02 OF 15 — EUCLID AND INFINITE PRIMES
+
+00:10–00:20 | ANCIENT GREECE MATHEMATICS GALLERY
+
+```text
+CREATE AN INDEPENDENT 10-SECOND PHOTOREALISTIC CINEMATIC VIDEO.
+TITLE: EUCLID AND THE ENDLESS SUPPLY OF PRIMES.
+16:9, 4K-style cinematic quality.
+
+FOUR ORIGINAL CHARACTER REFERENCES — MANDATORY:
+
+CHARACTER A: Original uploaded red-shirt Tamil man. Preserve his exact face, hair, facial structure, skin tone, body proportions, age and red shirt. Curious questioner.
+
+CHARACTER B: Original uploaded green-shirt Tamil man. Preserve his exact face, hair, facial structure, skin tone, body proportions, age and green shirt. Calm mathematical expert.
+
+CHARACTER C: Original uploaded heavy-built black-checked-shirt Tamil man. Preserve his exact face, heavy body, hair, skin tone, apparent age and checked shirt. Technical expert and rival.
+
+CHARACTER D: Separate tall Tamil scientist in a long black suit, black trousers and formal shoes. Preserve the established black-suit identity. Greedy antagonist.
+
+IDENTITY RULES:
+All four characters must be present. Never confuse Character C with Character D. Do not replace, morph, slim, enlarge, age or redesign anyone. Maintain exact photographic identities and original voices.
+
+VISUAL STORY:
+An ancient Greek mathematical gallery appears. Massive marble pillars display Euclid's Elements, Book IX, Proposition 20. A transparent mathematical tablet illuminates.
+
+Display the finite prime list:
+p₁, p₂, ..., pₙ
+
+Then construct:
+N = p₁p₂...pₙ + 1
+
+Visually demonstrate that N leaves remainder 1 when divided by every prime in the assumed finite list. Show that a prime divisor of N must be absent from that list.
+
+Do not claim that N must itself always be prime.
+
+Character A watches the proof. Character B explains it. Character C studies the tablet. Character D attempts to grab the golden prime symbols.
+
+DIALOGUE:
+00:00–00:03 — Manuscript opens.
+00:03–00:05 — A:
+"Prime numbers முடிவில்லாமல் இருக்கிறதா?"
+Subtitle: "Are there infinitely many prime numbers?"
+
+00:05–00:08 — B:
+"ஆம்! Euclid அதற்கான நிரூபணத்தை வழங்கினார்!"
+Subtitle: "Yes! Euclid proved that infinitely many primes exist!"
+
+00:08–00:10 — D:
+"முடிவில்லாத பொக்கிஷம்!"
+Subtitle: "An endless treasure!"
+
+C looks suspiciously at D.
+
+NARRATION:
+"Euclid proved that no finite list can contain all prime numbers."
+
+CAMERA:
+Slow orbit around the mathematical tablet, close-up of Character B explaining, then a dramatic close-up of Character D's greedy expression.
+
+AUDIO:
+Ancient Greek-inspired strings, veena, subtle percussion, mysterious bass and a golden orchestral flourish.
+
+END:
+A golden prime travels along the marble floor and transforms into Euler's mathematical formula.
+```
+
+### SNIPPET 03 OF 15 — EULER'S INFINITE PRODUCT
+
+00:20–00:30 | EULER'S INFINITE PRODUCT LABORATORY
+
+```text
+GENERATE A 10-SECOND CINEMATIC MATHEMATICAL SCIENCE-FICTION VIDEO.
+TITLE: EULER — THE SECRET CONNECTION BETWEEN PRIMES.
+16:9 widescreen, photorealistic 3D, 4K appearance.
+
+CHARACTER REFERENCE LOCK:
+
+A — RED SHIRT: Use the exact original red-shirt Tamil man's photograph. Preserve face, hair, skin tone, physique, age and clothing.
+
+B — GREEN SHIRT: Use the exact original green-shirt Tamil man's photograph. Preserve face, hair, skin tone, physique, age and clothing.
+
+C — BLACK CHECKED SHIRT: Use the exact original heavy-built Tamil man's photograph. Preserve his face, stocky build, hair, skin tone, age and black checked shirt. He is the technical expert and rival.
+
+D — BLACK SUIT SCIENTIST: Separate tall Tamil man in a long black suit. Preserve his established facial identity, hairstyle, tall build and clothing. He is the greedy antagonist, NOT Character C.
+
+All four characters must be independently identifiable. Use their respective original photographs. No identity mixing, face swapping, body changes, morphing, costume changes or replacement actors.
+
+VISUAL STORY:
+A golden prime transforms into an enormous Euler laboratory. Thousands of prime numbers become illuminated golden pillars.
+
+Display the zeta function:
+ζ(s) = Σₙ₌₁∞ 1/nˢ
+
+Display Euler's product:
+ζ(s) = ∏ₚ (1 − p⁻ˢ)⁻¹
+
+Clearly label:
+VALID FOR Re(s) > 1.
+
+Show each prime generating an individual mathematical factor. The factors combine into one beautiful infinite product.
+
+Character A watches in amazement. Character B explains the equation. Character C examines the structure. Character D watches the golden product as though it were a priceless possession.
+
+DIALOGUE:
+00:00–00:03 — Golden prime pillars assemble.
+00:03–00:05 — A:
+"எல்லா prime-களும் ஒரு function-ல் இணைகிறதா?"
+Subtitle: "Are all primes connected through one function?"
+
+00:05–00:08 — B:
+"Euler product மூலம் zeta function-க்கு தொடர்பு உள்ளது!"
+Subtitle: "The Euler product connects primes to the zeta function!"
+
+00:08–00:10 — D:
+"அருமை! இந்த ரகசியம் எனக்குத் தேவை!"
+Subtitle: "Excellent! I need this secret!"
+
+C reacts suspiciously.
+
+NARRATION:
+"Euler revealed a profound relationship between prime numbers and the Riemann zeta function."
+
+CAMERA:
+Macro focus on the product symbol, then sweeping movement between the golden pillars.
+
+AUDIO:
+High-energy mathematical orchestra, veena, plucked strings, electronic bass and rhythmic prime-factor pulses.
+
+END:
+The infinite product unfolds into a gigantic number line.
+```
+
+### SNIPPET 04 OF 15 — GAUSS, DIRICHLET AND PRIME DISTRIBUTION
+
+00:30–00:40 | PRIME NUMBER OBSERVATORY
+
+```text
+CREATE A 10-SECOND PHOTOREALISTIC CINEMATIC VIDEO.
+TITLE: GAUSS, DIRICHLET AND THE DISTRIBUTION OF PRIMES.
+16:9, 4K-style cinematic 3D.
+
+USE FOUR STRICT CHARACTER REFERENCES:
+
+A: Exact original red-shirt Tamil man. Same face, hair, skin, body, age and red shirt.
+
+B: Exact original green-shirt Tamil man. Same face, hair, skin, body, age and green shirt.
+
+C: Exact original heavy-built black-checked-shirt Tamil man. Same face, stocky physique, hair, skin, age and checked shirt. Technical expert and rival.
+
+D: Separate tall Tamil man wearing a long black suit. Same established face, hairstyle, tall body and clothing. Greedy scientist.
+
+All four are separate individuals. No character replacement, face blending, costume exchange, aging, de-aging or body alteration.
+
+VISUAL STORY:
+An enormous 3D prime-number observatory appears. Golden prime lights extend across a mathematical number line.
+
+Show irregular prime gaps that generally grow in scale.
+
+Display:
+π(x) = number of primes ≤ x
+
+π(x) ~ x / ln(x)
+
+A second holographic display shows:
+DIRICHLET — PRIMES IN ARITHMETIC PROGRESSIONS.
+
+Another historical display shows:
+HADAMARD AND DE LA VALLÉE POUSSIN — 1896.
+
+Character B explains the graph. Character A watches the irregular gaps. Character C analyses the data. Character D attempts to control the moving prime-number display.
+
+DIALOGUE:
+00:00–00:03 — Camera flies over the number line.
+00:03–00:05 — A:
+"அடுத்த prime எங்கே வரும் என்று தெரியுமா?"
+Subtitle: "Can we know where the next prime will appear?"
+
+00:05–00:08 — B:
+"சராசரி விநியோகத்தை கணிக்கலாம்; துல்லியமான இடங்கள் சிக்கலானவை!"
+Subtitle: "We can estimate their average distribution; exact positions are complicated!"
+
+00:08–00:10 — D:
+"அந்த இடைவெளிகளையும் நான் கைப்பற்றுவேன்!"
+Subtitle: "I will conquer those gaps too!"
+
+C looks at D in disbelief.
+
+NARRATION:
+"Gauss and Legendre anticipated the Prime Number Theorem. Dirichlet extended prime distribution to arithmetic progressions. The theorem was proved in 1896."
+
+CAMERA:
+Long tracking shot along golden prime markers, transition to a glowing graph.
+
+AUDIO:
+Expansive orchestral strings, electronic pulses, tabla and dramatic bass.
+
+END:
+The graph curves into a complex mathematical plane.
+```
+
+### SNIPPET 05 OF 15 — RIEMANN AND THE COMPLEX PLANE
+
+00:40–00:50 | RIEMANN'S MATHEMATICAL DIMENSION
+
+```text
+GENERATE A 10-SECOND CINEMATIC 3D SCIENCE-FICTION VIDEO.
+TITLE: RIEMANN — ENTER THE COMPLEX PLANE.
+16:9 widescreen, realistic lighting, 4K appearance.
+
+MANDATORY CHARACTER REFERENCES:
+
+CHARACTER A: Exact original red-shirt Tamil man. Preserve every facial and physical feature from his photograph, including his exact red clothing.
+
+CHARACTER B: Exact original green-shirt Tamil man. Preserve every facial and physical feature from his photograph, including his exact green clothing.
+
+CHARACTER C: Exact original heavy-built Tamil man in a black checked shirt. Preserve his actual heavy body proportions, face, hair and clothing. He is the intellectual rival.
+
+CHARACTER D: Separate tall Tamil man in a long black suit. Preserve his established face, tall build, hair and suit. He is the greedy scientist and antagonist.
+
+All four characters appear. Never merge Character C and Character D. No face morphing, identity substitution, weight changes, costume changes or aging.
+
+VISUAL STORY:
+The prime-number graph opens into a gigantic three-dimensional complex plane.
+
+Clearly label:
+Horizontal axis: Real part σ.
+Vertical axis: Imaginary part t.
+
+Display:
+s = σ + it
+
+Display:
+ζ(s)
+
+Show the original zeta series in its convergence region:
+Re(s) > 1.
+
+Show analytic continuation as a separate mathematical visualization.
+
+A holographic historical document displays:
+BERNHARD RIEMANN — 1859.
+
+Character A steps towards the complex plane. Character B points towards the axes. Character C studies the mathematical structure. Character D approaches the floating zeta function with fascination.
+
+DIALOGUE:
+00:00–00:03 — Complex plane assembles.
+00:03–00:05 — A:
+"ஒரு complex number prime-களை விளக்குமா?"
+Subtitle: "Can a complex number help explain primes?"
+
+00:05–00:08 — B:
+"Riemann zeta function மூலம் அவற்றின் விநியோகத்தை ஆராயலாம்!"
+Subtitle: "The Riemann zeta function helps investigate their distribution!"
+
+00:08–00:10 — D:
+"இப்போது உண்மையான ரகசியம் தொடங்குகிறது!"
+Subtitle: "Now the real mystery begins!"
+
+NARRATION:
+"In 1859, Bernhard Riemann connected the zeros of a complex function to the distribution of prime numbers."
+
+CAMERA:
+Smooth three-dimensional flight through the complex plane. Maintain readable mathematical labels.
+
+AUDIO:
+Atmospheric science-fiction orchestration, crystalline synthesizers, deep strings and rising tension.
+
+END:
+The plane develops a luminous vertical strip.
+```
+
+### SNIPPET 06 OF 15 — THE GOLDEN NON-TRIVIAL ZEROS
+
+00:50–01:00 | RIEMANN CRITICAL STRIP VAULT
+
+```text
+CREATE A 10-SECOND MATHEMATICAL CINEMATIC VIDEO.
+TITLE: THE GOLDEN NON-TRIVIAL ZEROS.
+16:9, photorealistic 3D, 4K appearance.
+
+STRICT FOUR-CHARACTER IMAGE REFERENCES:
+
+A — ORIGINAL RED-SHIRT TAMIL MAN:
+Use his supplied photograph. Exact facial identity, hair, skin tone, body proportions, apparent age and red shirt.
+
+B — ORIGINAL GREEN-SHIRT TAMIL MAN:
+Use his supplied photograph. Exact facial identity, hair, skin tone, body proportions, apparent age and green shirt.
+
+C — ORIGINAL HEAVY-BUILT BLACK-CHECKED-SHIRT TAMIL MAN:
+Use his supplied photograph. Exact face, heavy body proportions, hair, skin tone, age and checked shirt. Technical rival.
+
+D — SEPARATE TALL BLACK-SUIT TAMIL SCIENTIST:
+Maintain the separate established tall body, face, hair and long black suit. Principal greedy antagonist.
+
+All four remain separate, recognizable individuals. No face swapping, body reshaping, identity mixing, aging, de-aging or clothing changes.
+
+VISUAL STORY:
+The complex plane expands into a vast critical strip.
+
+Display:
+0 < Re(s) < 1
+
+Draw the critical line:
+Re(s) = 1/2
+
+Display the first three non-trivial zeros:
+
+ρ₁ = 1/2 + 14.134725i
+
+ρ₂ = 1/2 + 21.022040i
+
+ρ₃ = 1/2 + 25.010858i
+
+Show trivial zeros separately:
+−2, −4, −6, −8, ...
+
+Thousands of golden coordinates illuminate the complex plane.
+
+Character A looks amazed. Character B explains the coordinates. Character C observes the pattern. Character D attempts to collect the glowing golden points.
+
+DIALOGUE:
+00:00–00:03 — Golden zeros illuminate.
+00:03–00:05 — A:
+"இந்த தங்கப் புள்ளிகள் என்ன?"
+Subtitle: "What are these golden points?"
+
+00:05–00:08 — B:
+"அவை zeta function-ன் non-trivial zeros!"
+Subtitle: "They are the non-trivial zeros of the zeta function!"
+
+00:08–00:10 — D:
+"ஒவ்வொன்றையும் சேகரிப்பேன்!"
+Subtitle: "I will collect every one of them!"
+
+C watches the scientist's actions.
+
+NARRATION:
+"The non-trivial zeros carry information about the fine fluctuations in prime-number distribution."
+
+CAMERA:
+Slow macro orbit around the first three zeros, readable mathematical overlays, volumetric golden lighting.
+
+AUDIO:
+Mysterious choir, golden bells, deep strings and the scientist's dark three-note motif.
+
+END:
+One golden zero expands into a domain-colouring visualization.
+```
+
+### SNIPPET 07 OF 15 — THE PRIME RIPPLE AND HARDY
+
+01:00–01:10 | DOMAIN COLOURING GALLERY
+
+```text
+GENERATE A 10-SECOND CINEMATIC MATHEMATICAL SCIENCE-FICTION VIDEO.
+TITLE: THE PRIME RIPPLE — EXPLICIT FORMULA AND HARDY.
+16:9, 4K-style photorealistic 3D.
+
+CHARACTER IMAGE REFERENCES — ALL FOUR REQUIRED:
+
+A: Exact original red-shirt Tamil man, same face, hair, skin, body, age and red shirt.
+
+B: Exact original green-shirt Tamil man, same face, hair, skin, body, age and green shirt.
+
+C: Exact original heavy-built black-checked-shirt Tamil man, same face, hair, skin, body, age and checked shirt. Technical expert and rival.
+
+D: Separate tall Tamil man in a long black suit, same established face, hair, body and costume. Greedy scientist.
+
+Do not confuse C with D. All four identities must be preserved exactly. No morphing, replacement, face blending, body changes or costume changes.
+
+VISUAL STORY:
+Create a scientifically accurate Riemann zeta domain-colouring visualization.
+
+Hue represents complex argument or phase.
+Brightness represents magnitude.
+
+Near a zero, show the phase winding and magnitude approaching zero.
+
+Transition to a prime-counting graph displaying:
+
+Prime-counting behaviour =
+Smooth main term + contributions from zeta zeros.
+
+Label it as a schematic explicit-formula relationship.
+
+Display historical names:
+HARDY — 1914.
+HARDY–LITTLEWOOD.
+SELBERG.
+
+Character A watches the colourful visualization. Character B explains. Character C examines the graph. Character D reaches towards the oscillations.
+
+DIALOGUE:
+00:00–00:03 — Domain-colouring visualization.
+00:03–00:05 — A:
+"Zeros-க்கும் prime-களுக்கும் என்ன தொடர்பு?"
+Subtitle: "What connects zeros and primes?"
+
+00:05–00:08 — B:
+"Zeros prime விநியோகத்தின் ஏற்ற இறக்கங்களை விளக்குகின்றன!"
+Subtitle: "Zeros describe fluctuations in prime distribution!"
+
+00:08–00:10 — D:
+"இந்த அலைகளில் சக்தி இருக்கிறது!"
+Subtitle: "There is power in these waves!"
+
+NARRATION:
+"Hardy proved in 1914 that infinitely many zeta zeros lie on the critical line. The complete Riemann Hypothesis remains unproved."
+
+CAMERA:
+Begin with a macro domain-colouring shot and pull out into the oscillating prime-counting graph.
+
+AUDIO:
+Complex ambient synthesizers, deep cinematic pulse, orchestral strings and accelerating percussion.
+
+END:
+The oscillations transform into an endless stream of mathematical symbols.
+```
+
+### SNIPPET 08 OF 15 — RAMANUJAN AND MINUS ONE-TWELFTH
+
+01:10–01:20 | INFINITY AND SUMMATION CHAMBER
+
+```text
+CREATE AN INDEPENDENT 10-SECOND CINEMATIC VIDEO.
+TITLE: RAMANUJAN — THE NUMBER −1/12.
+16:9, photorealistic 3D, cinematic 4K appearance.
+
+USE ALL FOUR CHARACTER REFERENCES:
+
+A: Exact original red-shirt Tamil man, matching his reference face, hair, skin tone, body and red shirt.
+
+B: Exact original green-shirt Tamil man, matching his reference face, hair, skin tone, body and green shirt.
+
+C: Exact original heavy-built black-checked-shirt Tamil man, matching his reference face, heavy physique, hair, skin tone and checked shirt.
+
+D: Separate tall Tamil man in a long black suit, matching his established face, tall body and clothing. He is the greedy scientist.
+
+No merging C and D. No body alterations, morphing, aging, de-aging, costume switching or replacement.
+
+VISUAL STORY:
+An infinite number line appears.
+
+Display:
+1 + 2 + 3 + 4 + 5 + ...
+
+The ordinary partial sums increase without bound.
+
+A separate holographic mathematical screen displays:
+
+ζ(s) = Σₙ₌₁∞ n⁻ˢ
+
+Then show analytic continuation:
+
+ζ(−1) = −1/12
+
+Make it visually clear that the ordinary series 1 + 2 + 3 + ... does not equal −1/12 as an ordinary convergent sum.
+
+A historical portrait of Srinivasa Ramanujan appears as a static museum painting.
+
+Character A studies the sequence. Character B explains the distinction. Character C observes the calculation. Character D tries to seize the glowing −1/12 symbol.
+
+DIALOGUE:
+00:00–00:03 — Infinite sequence appears.
+00:03–00:05 — A:
+"ஒன்றிலிருந்து infinity வரை கூட்டினால் −1/12 வருமா?"
+Subtitle: "Does the sum from one to infinity equal minus one-twelfth?"
+
+00:05–00:08 — B:
+"இல்லை! சாதாரண கூட்டுத்தொகை diverge ஆகும்; analytic continuation-ல் ζ(−1) = −1/12!"
+Subtitle: "No! The ordinary sum diverges; analytic continuation gives minus one-twelfth!"
+
+00:08–00:10 — D:
+"அதையும் எனக்குச் சொந்தமாக்குவேன்!"
+Subtitle: "I will claim that too!"
+
+NARRATION:
+"The celebrated minus one-twelfth is an analytic-continuation or regularized value, not the ordinary sum of positive integers."
+
+CAMERA:
+Slow-motion mathematical symbols, close-up of −1/12, then a mathematical tunnel.
+
+AUDIO:
+Emotional Tamil orchestral music, veena, piano, violin and deep cinematic bass. Ominous chord as D reaches for the expression.
+
+END:
+The expression transforms into a quantum-inspired matrix.
+```
+
+### SNIPPET 09 OF 15 — MONTGOMERY, DYSON AND QUANTUM CHAOS
+
+01:20–01:30 | RANDOM MATRIX RESEARCH LAB
+
+```text
+GENERATE A 10-SECOND PHOTOREALISTIC SCIENCE-FICTION VIDEO.
+TITLE: MONTGOMERY, DYSON AND QUANTUM CHAOS.
+16:9 widescreen, cinematic 4K-style 3D.
+
+STRICT CHARACTER IDENTITY REFERENCES:
+
+CHARACTER A: Original red-shirt Tamil man. Exact uploaded face, hairstyle, skin tone, build, age and clothing.
+
+CHARACTER B: Original green-shirt Tamil man. Exact uploaded face, hairstyle, skin tone, build, age and clothing.
+
+CHARACTER C: Original heavy-built black-checked-shirt Tamil man. Exact uploaded face, stocky physique, hairstyle, skin tone, age and clothing. Technical rival.
+
+CHARACTER D: Separate tall Tamil man wearing a long black suit. Maintain the established face, tall physique, hairstyle and clothing. Greedy scientist.
+
+All four must be present. Character C is not Character D. No identity blending, face replacement, morphing, body modification or costume changes.
+
+VISUAL STORY:
+The museum becomes an advanced mathematical physics laboratory.
+
+A giant Hermitian random matrix appears. Its eigenvalues transform into glowing points.
+
+Display:
+
+RIEMANN ZERO STATISTICS ↔ GUE RANDOM MATRIX STATISTICS
+
+Show three historical labels:
+
+HUGH MONTGOMERY — PAIR CORRELATION, 1973.
+
+FREEMAN DYSON — RANDOM MATRIX CONNECTION.
+
+ANDREW ODLYZKO — NUMERICAL INVESTIGATIONS.
+
+Demonstrate statistical spacing similarities, not a proven physical identity between zeta zeros and a known quantum system.
+
+Character A looks amazed. Character B explains. Character C analyses the matrix. Character D imagines possessing its mathematical secrets.
+
+DIALOGUE:
+00:00–00:03 — Matrix eigenvalues appear.
+00:03–00:05 — A:
+"இந்த zeros-க்கும் quantum physics-க்கும் தொடர்பா?"
+Subtitle: "Are these zeros connected with quantum physics?"
+
+00:05–00:08 — B:
+"Random Matrix Theory-யுடன் ஆச்சரியமான statistical தொடர்பு உள்ளது!"
+Subtitle: "There is a remarkable statistical connection with random matrix theory!"
+
+00:08–00:10 — D:
+"இயற்கையின் எண்ணியல் ரகசியம்!"
+Subtitle: "The numerical secret of nature!"
+
+NARRATION:
+"Montgomery's pair-correlation work and Dyson's observation revealed a remarkable connection between number theory and random matrix statistics."
+
+CAMERA:
+High-speed orbit around the matrix, then extreme close-up of eigenvalue patterns.
+
+AUDIO:
+Futuristic orchestral-electronic score, rapid strings, electronic arpeggios, low percussion and crescendo.
+
+END:
+Eigenvalues become supercomputer data.
+```
+
+### SNIPPET 10 OF 15 — TRILLIONS OF ZEROS
+
+01:30–01:40 | SUPERCOMPUTER ZERO ARCHIVE
+
+```text
+CREATE A 10-SECOND CINEMATIC VIDEO.
+TITLE: THE COMPUTATIONAL SEARCH — TRILLIONS OF ZEROS.
+16:9, photorealistic futuristic laboratory, 4K-style quality.
+
+FOUR CHARACTER IDENTITY LOCK:
+
+A: Exact original red-shirt Tamil man from the supplied reference photograph. Preserve his face, hair, skin tone, body, age and clothing.
+
+B: Exact original green-shirt Tamil man from the supplied reference photograph. Preserve his face, hair, skin tone, body, age and clothing.
+
+C: Exact original heavy-built black-checked-shirt Tamil man from the supplied reference photograph. Preserve his exact face, stocky body, hair, skin tone, age and clothing.
+
+D: Separate tall Tamil man in the established long black suit. Preserve his distinct face, tall physique, hair and clothing.
+
+All four characters remain independent and recognizable. No face swapping, morphing, replacement, body modification, costume changes or identity mixing.
+
+VISUAL STORY:
+A gigantic supercomputer laboratory filled with transparent mathematical screens.
+
+Display:
+
+PLATT & TRUDGIAN — 2021
+
+0 < Im(ρ) ≤ 3 × 10¹²
+
+Re(ρ) = 1/2
+
+Show an enormous archive of verified non-trivial zeros up to the stated height.
+
+Clearly communicate that this is finite rigorous verification, not proof for every zero at infinity.
+
+Character A studies the data. Character B explains the verification. Character C checks the numerical displays. Character D tries to transfer the entire archive into a golden vault.
+
+DIALOGUE:
+00:00–00:03 — Supercomputer screens illuminate.
+00:03–00:05 — A:
+"இவ்வளவு zeros-ஐ கணினி சரிபார்த்துவிட்டதா?"
+Subtitle: "Have computers checked this many zeros?"
+
+00:05–00:08 — B:
+"3 × 10¹² உயரம் வரை rigorous verification செய்யப்பட்டுள்ளது!"
+Subtitle: "Rigorous verification extends to a height of three trillion!"
+
+00:08–00:10 — B:
+"ஆனால் அது infinity-க்கான proof அல்ல!"
+Subtitle: "But that is not a proof for infinity!"
+
+NARRATION:
+"Platt and Trudgian rigorously verified the Riemann Hypothesis up to height three trillion using interval arithmetic."
+
+CAMERA:
+Fast tracking through supercomputer data corridors, ending on a vast infinite screen.
+
+AUDIO:
+Mechanical rhythms, electronic pulses, cinematic brass, low orchestral drones.
+
+END:
+The last data screen transforms into a modern research publication.
+```
+
+### SNIPPET 11 OF 15 — GUTH AND MAYNARD: THE NEW FRONTIER
+
+01:40–01:50 | MODERN ANALYTIC NUMBER THEORY LABORATORY
+
+```text
+CREATE A 10-SECOND CINEMATIC MATHEMATICAL SCIENCE-FICTION VIDEO.
+TITLE: GUTH AND MAYNARD — THE NEW MATHEMATICAL FRONTIER.
+16:9, 4K-style photorealistic 3D.
+
+MANDATORY FOUR CHARACTER REFERENCES:
+
+CHARACTER A — RED SHIRT:
+Use the original red-shirt Tamil man's reference photograph. Preserve exact face, eyes, nose, mouth, ears, hairstyle, skin tone, facial hair, body proportions, apparent age and clothing.
+
+CHARACTER B — GREEN SHIRT:
+Use the original green-shirt Tamil man's reference photograph. Preserve exact face, facial features, hairstyle, skin tone, body proportions, apparent age and clothing.
+
+CHARACTER C — BLACK CHECKED SHIRT:
+Use the original heavy-built Tamil man's photograph. Preserve exact face, hairstyle, skin tone, body proportions and black checked shirt. He is the technical expert and rival.
+
+CHARACTER D — BLACK SUIT:
+A separate tall Tamil man wearing a long black suit, black trousers and formal shoes. Preserve the same established face, hairstyle, tall body proportions and clothing. He is the greedy scientist.
+
+All four characters must appear. Never combine Character C with Character D. No face replacement, identity blending, body modification, morphing, aging, de-aging or costume changes.
+
+VISUAL STORY:
+A futuristic research laboratory displays a large academic publication:
+
+NEW LARGE VALUE ESTIMATES FOR DIRICHLET POLYNOMIALS
+
+LARRY GUTH AND JAMES MAYNARD
+
+ANNALS OF MATHEMATICS — 2026.
+
+Show mathematical representations of Dirichlet polynomials, zero-density estimates and prime counts in short intervals.
+
+Display the research estimate:
+
+N(σ,T) ≤ T^[30(1−σ)/13 + o(1)]
+
+Show the short-interval scale:
+
+x^(17/30 + o(1))
+
+Make the displays readable and mathematically typeset. Show an animated number line demonstrating progress in understanding prime distribution.
+
+Do not claim that this research proves the Riemann Hypothesis.
+
+Character A examines the publication. Character B explains the result. Character C carefully studies the mathematical estimate. Character D becomes jealous and determined to surpass the researchers.
+
+DIALOGUE:
+00:00–00:03 — Research paper illuminates.
+00:03–00:05 — A:
+"2026-ல் புதிய prime research வந்துள்ளதா?"
+Subtitle: "Have there been new advances in prime research in 2026?"
+
+00:05–00:08 — B:
+"Guth மற்றும் Maynard zero-density estimates-ஐ மேம்படுத்தியுள்ளனர்!"
+Subtitle: "Guth and Maynard have improved zero-density estimates!"
+
+00:08–00:10 — D:
+"அவர்களையும் மிஞ்சுவேன்!"
+Subtitle: "I will surpass them!"
+
+C watches D's reaction.
+
+NARRATION:
+"Their 2026 work advances large-value estimates for Dirichlet polynomials, zero-density estimates and the study of primes in shorter intervals."
+
+CAMERA:
+Professional research-laboratory tracking shot, macro mathematical formula, slow cinematic zoom.
+
+AUDIO:
+Inspiring orchestral strings, sophisticated electronic sound design, dramatic bass and the scientist's dark musical motif.
+
+END:
+The mathematical publication transforms into a gigantic RSA encryption wall.
+```
+
+### SNIPPET 12 OF 15 — RSA AND THE GREEDY SCIENTIST
+
+01:50–02:00 | GLOBAL CRYPTOGRAPHY CHAMBER
+
+```text
+GENERATE A 10-SECOND PHOTOREALISTIC CINEMATIC THRILLER VIDEO.
+TITLE: THE SCIENTIST'S GREED — RSA AND THE GOLDEN KEY.
+16:9 widescreen, 4K-style cinematic 3D.
+
+MANDATORY FOUR CHARACTER IMAGE REFERENCES:
+
+A — RED SHIRT:
+Use the original red-shirt Tamil man's photograph. Exact face, hair, skin tone, body proportions, age and red clothing.
+
+B — GREEN SHIRT:
+Use the original green-shirt Tamil man's photograph. Exact face, hair, skin tone, body proportions, age and green clothing.
+
+C — BLACK CHECKED SHIRT:
+Use the original heavy-built Tamil man's photograph. Exact face, stocky body, hair, skin tone, age and black checked clothing. He is the technical expert and intellectual rival.
+
+D — GREEDY SCIENTIST:
+Use a separate tall Tamil man in a long black suit. Maintain his exact established face, hair, tall physique and black formal clothing. He is the principal antagonist.
+
+CRITICAL:
+Character C and Character D must remain completely different individuals. Never turn the black-checked-shirt man into the black-suit scientist. Do not swap faces, costumes, bodies or identities. Preserve all four original identities.
+
+VISUAL STORY:
+An enormous futuristic cryptography chamber.
+
+Two enormous golden prime numbers rotate around a digital mathematical lock.
+
+Display:
+
+N = p × q
+
+Explain visually that RSA uses two secret prime factors to form a public modulus.
+
+Display:
+
+PUBLIC KEY — OPENLY DISTRIBUTED.
+
+PRIVATE KEY — SECURELY PROTECTED.
+
+Character A watches the mathematical lock. Character B explains the cryptography. Character C examines the mathematical structure. Character D reaches towards the golden encryption key, imagining control over the world's financial systems.
+
+No real passwords, real bank credentials, executable exploits, working cracking instructions or real encryption keys.
+
+DIALOGUE:
+00:00–00:03 — Two primes combine into an RSA modulus.
+00:03–00:05 — A:
+"இரண்டு primes சேர்ந்து ஒரு encryption system உருவாக்குமா?"
+Subtitle: "Can two primes form an encryption system?"
+
+00:05–00:08 — B:
+"RSA-வில் N = p × q; factoring கடினமாக இருப்பதே முக்கியம்!"
+Subtitle: "In RSA, N equals p times q; the difficulty of factoring is central!"
+
+00:08–00:10 — D:
+"உலகத்தின் ரகசியங்கள் என்னுடையவை!"
+Subtitle: "The world's secrets will belong to me!"
+
+C reacts with concern.
+
+NARRATION:
+"RSA relies on the mathematics of integer factorization. The Riemann Hypothesis concerns prime distribution. Proving RH does not automatically factor an RSA modulus."
+
+CAMERA:
+Low-angle close-up of D's hand reaching towards the digital lock. Dramatic reflections across the four characters' faces.
+
+AUDIO:
+Villain orchestra, deep bass, aggressive percussion, metallic pulses and Tamil action-thriller musical energy.
+
+END:
+The RSA lock opens into a fictional digital financial district.
+```
+
+### SNIPPET 13 OF 15 — BANKS, PASSWORDS AND THE ILLUSION OF CONTROL
+
+02:00–02:10 | FUTURISTIC GLOBAL FINANCIAL NETWORK
+
+```text
+CREATE A 10-SECOND CINEMATIC SCIENCE-FICTION THRILLER.
+TITLE: BANKS, PASSWORDS AND THE ILLUSION OF TOTAL CONTROL.
+16:9, photorealistic 3D, cinematic 4K appearance.
+
+STRICT FOUR-CHARACTER REFERENCE MAPPING:
+
+CHARACTER A:
+Exact original red-shirt Tamil man from the uploaded image. Preserve face, hair, eyes, nose, mouth, skin tone, body proportions, age and red shirt.
+
+CHARACTER B:
+Exact original green-shirt Tamil man from the uploaded image. Preserve face, hair, eyes, nose, mouth, skin tone, body proportions, age and green shirt.
+
+CHARACTER C:
+Exact original heavy-built Tamil man in the black checked shirt. Preserve his real face, hair, skin tone, facial features, body proportions and clothing. He is the technical rival.
+
+CHARACTER D:
+A separate tall Tamil man in the long black suit. Preserve his established face, hairstyle, tall physique and formal black clothing. He is the greedy scientist.
+
+All four characters must be recognizable and separate. Never merge Character C and D. No face swapping, morphing, costume changes, body alterations, aging, de-aging or replacement actors.
+
+VISUAL STORY:
+Reveal an enormous fictional global financial city.
+
+Show cinematic holograms of:
+International banking buildings.
+Digital payments.
+Encrypted transactions.
+Financial ledgers.
+Bank authentication.
+Password protection.
+Public-key cryptography.
+Multifactor authentication.
+
+Character D spreads his arms, imagining he can control every financial system using golden zeta zeros.
+
+Character A becomes concerned. Character B explains the scientific distinction. Character C demonstrates that banking security requires many independent technologies.
+
+Display:
+
+RIEMANN HYPOTHESIS ≠ AUTOMATIC RSA BREAK.
+
+Do not show actual bank names, real credentials, passwords, account numbers, bank intrusion or hacking instructions. Do not imply that all passwords are protected directly by RSA.
+
+DIALOGUE:
+00:00–00:03 — Futuristic financial city.
+00:03–00:05 — A:
+"Riemann Hypothesis நிரூபித்தால் bank passwords கிடைக்குமா?"
+Subtitle: "Would proving RH reveal bank passwords?"
+
+00:05–00:08 — B:
+"இல்லை! RH நிரூபிப்பது மட்டும் banking security-ஐ உடைக்காது!"
+Subtitle: "No! Proving RH alone does not break banking security!"
+
+00:08–00:10 — D:
+"எனக்கு இன்னும் பெரிய சக்தி வேண்டும்!"
+Subtitle: "I want even greater power!"
+
+Character C gives D a serious warning look.
+
+NARRATION:
+"Prime distribution, integer factorization, password security and financial protection are distinct technical problems."
+
+CAMERA:
+Rapid aerial flight across the fictional financial city. Cut to D's frustrated face and C's serious reaction.
+
+AUDIO:
+High-tech thriller score, electronic percussion, dramatic brass, deep synth and rising suspense.
+
+END:
+The encrypted financial data transforms into a futuristic power-infrastructure network.
+```
+
+### SNIPPET 14 OF 15 — THE NUCLEAR POWER PLANT
+
+02:10–02:20 | FICTIONAL NUCLEAR ENERGY SAFETY CENTRE
+
+```text
+GENERATE AN EXACTLY 10-SECOND CINEMATIC SCIENCE-FICTION VIDEO.
+TITLE: THE NUCLEAR POWER PLANT — KNOWLEDGE OR DESTRUCTION?
+16:9 widescreen, photorealistic cinematic 3D, 4K appearance.
+
+FOUR CHARACTER IDENTITY REFERENCES:
+
+A — RED SHIRT:
+Original uploaded Tamil man in the exact red shirt. Preserve original face, eyes, nose, mouth, hair, skin tone, build, age and clothing.
+
+B — GREEN SHIRT:
+Original uploaded Tamil man in the exact green shirt. Preserve original face, eyes, nose, mouth, hair, skin tone, build, age and clothing.
+
+C — BLACK CHECKED SHIRT:
+Original uploaded heavy-built Tamil man. Preserve original face, hairstyle, skin tone, heavy body proportions, apparent age and exact black checked shirt. Technical expert and intellectual rival.
+
+D — BLACK SUIT SCIENTIST:
+Separate tall Tamil man in a long black suit. Preserve his established face, tall body proportions, hair and formal black clothing. Greedy antagonist.
+
+All four must remain distinct. Never merge C and D. No face swapping, morphing, costume changes, body modifications, aging, de-aging or replacement.
+
+VISUAL STORY:
+Show a spectacular fictional nuclear power plant at night.
+
+The camera moves into an abstract safety-monitoring centre. Display separate conceptual zones representing information technology, operational technology and independently protected safety systems.
+
+Character D stands before the holographic plant, imagining that his golden mathematical zeros will allow him to control it.
+
+Character A asks a question. Character B explains the safety principles. Character C supports the technical explanation. Character D realizes that mathematical knowledge does not directly control physical infrastructure.
+
+Display high-level safety concepts:
+Network separation.
+Restricted access.
+Independent safety protection.
+Continuous monitoring.
+Authorized human oversight.
+Tested emergency procedures.
+Physical security.
+Engineering safeguards.
+
+Do not show actual reactor schematics, plant configurations, control commands, operational access routes, vulnerabilities or interference instructions.
+
+DIALOGUE:
+00:00–00:03 — Cinematic exterior of the fictional nuclear facility.
+00:03–00:05 — A:
+"Prime ரகசியங்களால் nuclear plant-ஐ கட்டுப்படுத்த முடியுமா?"
+Subtitle: "Can prime-number secrets control a nuclear plant?"
+
+00:05–00:08 — B:
+"இல்லை! Plant safety தனித்துவமான engineering மற்றும் பாதுகாப்பு முறைகளால் காக்கப்படுகிறது!"
+Subtitle: "No! Plant safety depends on dedicated engineering and protection systems!"
+
+00:08–00:10 — D:
+"அப்படியானால் என் திட்டம் தோல்வியா?"
+Subtitle: "Then is my plan failing?"
+
+C watches D seriously.
+
+NARRATION:
+"Mathematical knowledge is powerful, but critical infrastructure requires independent physical, digital, operational and human safeguards."
+
+CAMERA:
+Wide exterior aerial view, transition into the abstract monitoring centre, close-up of B and C explaining the safeguards.
+
+AUDIO:
+Dark industrial orchestration, controlled low-frequency pulses, subdued brass and a heroic protective musical theme.
+
+END:
+Safety displays dissolve into an artificial-intelligence mathematics laboratory.
+```
+
+### SNIPPET 15 OF 15 — THE FUTURE AND THE UNFINISHED RIEMANN HYPOTHESIS
+
+02:20–02:30 | MUSEUM OF PRIMES — INFINITY EXIT
+
+```text
+CREATE THE FINAL 10-SECOND CINEMATIC VIDEO OF THE FILM.
+TITLE: THE FUTURE — ARTIFICIAL INTELLIGENCE AND THE UNFINISHED RIEMANN HYPOTHESIS.
+16:9, photorealistic 3D, 4K-style cinematic appearance.
+
+MANDATORY FOUR ORIGINAL CHARACTER REFERENCES:
+
+CHARACTER A — RED SHIRT:
+Use the exact original red-shirt Tamil man's photograph. Preserve his face, eyes, nose, mouth, ears, hairstyle, skin tone, facial hair, body proportions, apparent age and exact red clothing.
+
+CHARACTER B — GREEN SHIRT:
+Use the exact original green-shirt Tamil man's photograph. Preserve his face, eyes, nose, mouth, ears, hairstyle, skin tone, facial hair, body proportions, apparent age and exact green clothing.
+
+CHARACTER C — BLACK CHECKED SHIRT:
+Use the exact original heavy-built Tamil man's photograph. Preserve his face, eyes, nose, mouth, ears, hairstyle, skin tone, heavy body proportions, apparent age and exact black checked shirt. He remains the technical expert and intellectual rival.
+
+CHARACTER D — GREEDY SCIENTIST:
+Use the separate established tall Tamil man in a long black suit. Preserve his exact established facial identity, hairstyle, tall physique and formal black clothing. He is the principal antagonist and must never be replaced by Character C.
+
+ABSOLUTE CHARACTER LOCK:
+All four individuals must remain completely separate and recognizable. Never merge their faces, exchange their clothing, change their body sizes, alter their ages, morph their appearances or substitute actors. Character C must remain heavy-built. Character D must remain tall and wear the black suit.
+
+VISUAL STORY:
+All four characters stand inside a gigantic futuristic artificial-intelligence mathematics laboratory.
+
+A holographic research paper illuminates:
+
+THE QUASI-RIEMANN HYPOTHESIS
+OPENAI — 30 SEPTEMBER 2026.
+
+Display the claimed zero-free region:
+
+ζ(s) ≠ 0 for Re(s) > 7/8
+
+except for the pole at s = 1.
+
+Clearly distinguish this narrower zero-free-region claim from the full Riemann Hypothesis.
+
+Then display:
+
+FULL RIEMANN HYPOTHESIS:
+Re(ρ) = 1/2.
+
+Illuminate the region to the right of 7/8. Leave the full critical-line problem visibly unresolved.
+
+Show a separate post-quantum cryptography screen:
+
+ML-KEM
+ML-DSA
+SLH-DSA.
+
+Do not claim that quantum computers have already broken all RSA systems.
+
+Character A watches the AI research. Character B explains the mathematical limitations. Character C observes the cryptographic implications. Character D slowly releases the imaginary golden gems. His greedy expression changes into humility.
+
+DIALOGUE:
+00:00–00:03 — AI mathematical proof environment illuminates.
+00:03–00:05 — A:
+"AI கூட இப்போது zeta function-ஐ ஆராய்கிறதா?"
+Subtitle: "Is AI now investigating the zeta function too?"
+
+00:05–00:08 — B:
+"ஆம்! ஆனால் முழு Riemann Hypothesis இன்னும் நிரூபிக்கப்படவில்லை!"
+Subtitle: "Yes! But the full Riemann Hypothesis remains unproved!"
+
+00:08–00:10 — D, humbled:
+"கணிதம் எனக்குச் சொந்தமல்ல; அது மனிதகுலத்தின் அறிவு!"
+Subtitle: "Mathematics does not belong to me; it is humanity's knowledge!"
+
+C stands beside A and B as the scientist accepts the truth.
+
+FINAL NARRATION:
+"From Euclid to artificial intelligence, mathematics advances through questions, evidence and proof. The mystery of primes remains an invitation to discover, not a weapon to conquer."
+
+FINAL CAMERA:
+All four characters stand together in a grand composition. The golden zeros transform into a magnificent galaxy of prime numbers. The camera pulls backwards through an infinite field of mathematical stars.
+
+FINAL TITLE:
+THE MUSEUM OF PRIMES
+
+THE GREEDY SCIENTIST AND THE GOLDEN ZEROS
+
+FROM EUCLID TO ARTIFICIAL INTELLIGENCE
+
+தமிழில்:
+"எண்களின் ரகசியம் முடிவதில்லை. மனித அறிவின் பயணமும் முடிவதில்லை."
+
+AUDIO:
+Massive emotional Tamil cinematic orchestral finale. Veena, mridangam, brass, deep choir, warm strings and beautiful synthesizer atmosphere. A final golden mathematical resonance fades into silence.
+
+END OF FILM.
+```
+
+### Important video-generation settings
+
+For best results, use these instructions when generating every clip:
+
+* Upload all four character reference photographs for every scene.
+
+* Set character-reference strength as high as the video generator allows.
+
+* Use the previous scene's final frame as a composition reference, not as a replacement for the original character photographs.
+
+* Generate exactly 10 seconds per clip.
+
+* Keep spoken dialogue clear and prioritize lip synchronization.
+
+* Add complex equations, research-paper titles and English subtitles as post-production overlays if the video generator renders mathematical text incorrectly.
+
+One clarification about length: These are complete, independently copyable production prompts, but not 6,000 words each. A 6,000-word prompt for every 10-second scene would produce approximately 90,000 words across the film and may overwhelm video-generation systems. I can expand each individual scene towards that limit without changing your four characters or screenplay.
+
+Most important: Character C (black checked shirt) is the intellectual rival. Character D (tall man in black suit) is the separate greedy scientist. Both must appear as different people throughout the film.
